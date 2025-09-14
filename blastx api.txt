@@ -1,0 +1,206 @@
+{
+  "code": 1,
+  "message": "msg",
+  "data": {
+    "BlastOutput2": [
+      {
+        "report": {
+          "program": "blastx",
+          "version": "BLASTX 2.17.0+",
+          "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+          "search_target": {
+            "db": "/blast/blastdb/pdbaa"
+          },
+          "params": {
+            "matrix": "BLOSUM62",
+            "expect": 10,
+            "gap_open": 11,
+            "gap_extend": 1,
+            "filter": "L;",
+            "cbs": 2,
+            "query_gencode": 1
+          },
+          "results": {
+            "search": {
+              "query_id": "Query_1",
+              "query_len": 960,
+              "query_masking": [
+                {
+                  "from": 27,
+                  "to": 75
+                },
+                {
+                  "from": 387,
+                  "to": 417
+                },
+                {
+                  "from": 798,
+                  "to": 837
+                },
+                {
+                  "from": 43,
+                  "to": 91
+                },
+                {
+                  "from": 362,
+                  "to": 407
+                },
+                {
+                  "from": 725,
+                  "to": 767
+                },
+                {
+                  "from": 878,
+                  "to": 950
+                }
+              ],
+              "hits": [
+                {
+                  "num": 1,
+                  "description": [
+                    {
+                      "id": "pdb|4QUV|A",
+                      "accession": "4QUV_A",
+                      "title": "Chain A, Delta(14)-sterol reductase [Methylotuvimicrobium alcaliphilum 20Z]",
+                      "taxid": 1091494
+                    },
+                    {
+                      "id": "pdb|4QUV|B",
+                      "accession": "4QUV_B",
+                      "title": "Chain B, Delta(14)-sterol reductase [Methylotuvimicrobium alcaliphilum 20Z]",
+                      "taxid": 1091494
+                    }
+                  ],
+                  "len": 427,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 63.1586,
+                      "score": 152,
+                      "evalue": 1.9907e-10,
+                      "identity": 62,
+                      "positive": 92,
+                      "query_from": 260,
+                      "query_to": 949,
+                      "query_frame": 2,
+                      "hit_from": 1,
+                      "hit_to": 199,
+                      "align_len": 231,
+                      "gaps": 33,
+                      "qseq": "IPKAKSLDGVTNDRTASQGQWGRAWEVDWFSLASVIFLLLFAPFIVYYFIMACDQYSCALTGPVVDIVTGHARLSDIWAKTPPITRKAAQLYTLWVTFQVLLYTSLPDFCHKFLPGYVGGIQEGAVTPAGVVNKYQINGLQAWLLTHLLWFANAHLLSWFSPTIIFDNWIPLLWCANILGYAVSTFAMVKGYFFPTSARDCKF-TGNFFYNYMMGIEFNPRIGKWFDFKLF",
+                      "hseq": "MSEQESRDNAAVDAVRQKYGFGFSWLV----------LMIALPPLVYYLWICVTYYQGELV-----FTSDAAAWRRFWSHVAPPTWHAAGLYAAWFLGQAALQVWAP-----------GPTVQGMKLPDGSRLDYRMNGIFSFLFTLAVVFGLV-TMGWLDATVLYDQLGPLLTVVNIFTFVFAGFL----YFWGLNGKQWERPTGRPFYDYFMGTALNPRIGS-LDLKLF",
+                      "midline": "+ + +S D    D    +  +G +W V          L++  P +VYY  +    Y   L        +  A     W+   P T  AA LY  W   Q  L    P           G   +G   P G    Y++NG+ ++L T  + F     + W   T+++D   PLL   NI  +  + F     YF+  + +  +  TG  FY+Y MG   NPRIG   D KLF"
+                    }
+                  ]
+                },
+                {
+                  "num": 2,
+                  "description": [
+                    {
+                      "id": "pdb|9L5R|c",
+                      "accession": "9L5R_c",
+                      "title": "Chain c, Delta(14)-sterol reductase [Thermochaetoides thermophila DSM 1495]",
+                      "taxid": 759272
+                    },
+                    {
+                      "id": "pdb|9L5R|m",
+                      "accession": "9L5R_m",
+                      "title": "Chain m, Delta(14)-sterol reductase [Thermochaetoides thermophila DSM 1495]",
+                      "taxid": 759272
+                    },
+                    {
+                      "id": "pdb|9L5S|m",
+                      "accession": "9L5S_m",
+                      "title": "Chain m, Delta(14)-sterol reductase [Thermochaetoides thermophila DSM 1495]",
+                      "taxid": 759272
+                    },
+                    {
+                      "id": "pdb|9L5T|m",
+                      "accession": "9L5T_m",
+                      "title": "Chain m, Delta(14)-sterol reductase [Thermochaetoides thermophila DSM 1495]",
+                      "taxid": 759272
+                    }
+                  ],
+                  "len": 592,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 41.2022,
+                      "score": 95,
+                      "evalue": 0.0025,
+                      "identity": 30,
+                      "positive": 52,
+                      "query_from": 593,
+                      "query_to": 922,
+                      "query_frame": 2,
+                      "hit_from": 99,
+                      "hit_to": 213,
+                      "align_len": 118,
+                      "gaps": 11,
+                      "qseq": "KFLPGYVGGIQEGAVTPAGVVNKYQINGLQAWLLTHLLWFANAHLLSWFSP--TIIFDNWIPLLWCANILGYAVSTFAMVKGYFFPTSARDCK------FTGNFFYNYMMGIEFNPRI",
+                      "hseq": "RILPG---DVVEGTQLRNGGRLKYKLNAFASSMFTLVICAAGTIAQGADFPLWTFIADNYVQILTANVIIAYTLATFVYIRSFSVKPGNPQLRELAVGGVTGNILYDWFIGRELNPRV",
+                      "midline": "+ LPG    + EG     G   KY++N   + + T ++  A         P  T I DN++ +L    I+ Y ++TF  ++ +         +       TGN  Y++ +G E NPR+"
+                    }
+                  ]
+                },
+                {
+                  "num": 3,
+                  "description": [
+                    {
+                      "id": "pdb|4FZI|A",
+                      "accession": "4FZI_A",
+                      "title": "Chain A, Prostaglandin F synthase [Trypanosoma cruzi strain CL Brener]",
+                      "taxid": 353153
+                    },
+                    {
+                      "id": "pdb|4FZI|B",
+                      "accession": "4FZI_B",
+                      "title": "Chain B, Prostaglandin F synthase [Trypanosoma cruzi strain CL Brener]",
+                      "taxid": 353153
+                    },
+                    {
+                      "id": "pdb|4GIE|A",
+                      "accession": "4GIE_A",
+                      "title": "Chain A, Prostaglandin F synthase [Trypanosoma cruzi strain CL Brener]",
+                      "taxid": 353153
+                    }
+                  ],
+                  "len": 290,
+                  "hsps": [
+                    {
+                      "num": 1,
+                      "bit_score": 31.5722,
+                      "score": 70,
+                      "evalue": 2.4904,
+                      "identity": 19,
+                      "positive": 29,
+                      "query_from": 647,
+                      "query_to": 811,
+                      "query_frame": -3,
+                      "hit_from": 68,
+                      "hit_to": 121,
+                      "align_len": 55,
+                      "gaps": 1,
+                      "qseq": "GDGIAKDVGAPQQWDPVVEDDGGREPGQEMSVCKPEQVREEPGLQAIDLILVHNP",
+                      "hseq": "GQGI-RESGVPREEVWVTTKVWNSDQGYEKTLAAFERSRELLGLEYIDLYLIHWP",
+                      "midline": "G GI ++ G P++   V       + G E ++   E+ RE  GL+ IDL L+H P"
+                    }
+                  ]
+                }
+              ],
+              "stat": {
+                "db_num": 175660,
+                "db_len": 50420939,
+                "hsp_len": 108,
+                "eff_space": 6667327708,
+                "kappa": 0.041,
+                "lambda": 0.267,
+                "entropy": 0.14
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

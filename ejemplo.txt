@@ -1,0 +1,75 @@
+https://github.com/ncbi/blast_plus_docs
+
+BUSCO: la proteina mas proobable y la proteina mutada para compararlas graficamente (bioinformática estructural).
+                        - menor e-value (significancia estadística)
+                        - mayor bitscore
+                        - mayor % identidad o mayor length.
+
+GENERICO: .fasta o .fa
+        .fna: fasta nucleic acid
+        .faa: fasta amino acid
+        .fsa
+
+## Create directories for analysis
+cd c:/repos/vitamina/blast
+mkdir blastdb
+mkdir queries
+mkdir fasta
+mkdir results
+mkdir blastdb_custom
+
+queries/miseq.fna
+
+#blastx: traduce en los 6 marcos de lectura posibles y busca similitudes contra proteínas del PDB
+nuc → amino se puede hacer manual pero BLASTX lo hace, prueba las 6 y elige la mejor
+MARCOS: empiezan en el 1, 2 o 3 nucleótido.
+        + lectura: +1, +2, +3
+        - reverse complement: -1, -2, -3
+
+docker run --rm `
+        -v C:/repos/vitamina/blast/blastdb:/blast/blastdb:ro `
+        -v C:/repos/vitamina/blast/queries:/blast/queries:ro `
+        -v C:/repos/vitamina/blast/results:/blast/results:rw `
+        ncbi/blast blastx `
+        -query /blast/queries/miseq.fna `
+        -db pdbaa `
+        -out /blast/results/miseq_blastx.out `
+        -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qframe qseq sseq" 
+
+-outfmt X
+        0 = default (texto plano).
+        5 = XML 
+      → 6 = tabla 
+        7 = tabla + comentarios.
+        10 = CSV como el 6
+        11 = formato ASN.1 binario 
+      → 15 = JSON 
+-outfmt 6 devuelve: 
+                qseqid  sseqid   pident  length  mismatch  gapopen  qstart  qend  sstart  send  evalue  bitscore   
+                miseq   9HDO_A   42.500  40      23        0        37      156   1624    1663  0.001   36.2
+
+                qseqid = id del query
+                sseqid = id de la secuencia 
+              → pident = % de identidad entre query y subject 
+                length = longitud del alineamiento
+                mismatch = número de mismatches
+                gapopen = número de gaps abiertos
+                qstart = posición de inicio en la query
+                qend = posición de fin en la query
+                sstart = inicio en la secuencia de la base
+                send = fin en la secuencia de la base
+              → evalue = valor esperado (menor = más significativo)
+              → bitscore = score normalizado (mayor = mejor alineamiento)
+
+////agrego "qframe qseq sseq" o uso 15 y el JSON viene con todo
+>>     -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qframe qseq sseq" 
+                qframe  qseq                                            sseq
+                1       KTMSKKKKKRHLNTIVRMMKI*NTDNTKCWGGCGATGTLI	REMQIKTTMRYHLTPVRMAIIKKSGNNRCWRGCGEIGTLL
+                
+                * = codón stop (TAA, TAG, TGA)
+                ...
+              → qframe = marco de lectura 
+              → qseq = la región traducida de la secuencia.
+              → sseq = la región del subject que se alineo.
+
+GRAFICAR: qseq y sseq

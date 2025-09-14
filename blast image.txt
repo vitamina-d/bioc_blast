@@ -1,0 +1,69 @@
+docker run -it --name r-base-blast rocker/r-base:latest bash
+en el contenedor: 
+	apt-get update
+	apt-get install -y wget unzip build-essential libssl-dev libcurl4-openssl-dev
+		wget: descargar archivos
+		unzip: descomprimir
+		build-essential:
+		libssl-dev: http
+		libcurl4-openssl-dev
+	wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.17.0+-x64-linux.tar.gz
+RETRY: porque se descargaba corrupto ?
+	wget --retry-connrefused --tries=10 ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.17.0+-x64-linux.tar.gz
+
+		root@dc0da2efa81d:/# pwd
+		/
+		root@dc0da2efa81d:/# ls
+		bin   dev  home  lib64  mnt                                  opt   root  sbin  sys  usr
+		boot  etc  lib   media  ncbi-blast-2.17.0+-x64-linux.tar.gz  proc  run   srv   tmp  var
+
+		root@dc0da2efa81d:/# md5sum ncbi-blast-2.17.0+-x64-linux.tar.gz
+		bdec166721de3b55f90a3badc83538e8  ncbi-blast-2.17.0+-x64-linux.tar.gz
+		root@dc0da2efa81d:/# cat ncbi-blast-2.17.0+-x64-linux.tar.gz.md5
+		bdec166721de3b55f90a3badc83538e8  ncbi-blast-2.17.0+-x64-linux.tar.gz
+		root@dc0da2efa81d:/# tar -xzf ncbi-blast-2.17.0+-x64-linux.tar.gz.md5
+
+
+	tar -xzf ncbi-blast-2.17.0+-x64-linux.tar.gz
+MOVER A opt (convencion)
+	mv ncbi-blast-2.17.0+ /opt/blast
+PARA  NO USAR LA RUTA COMPLETA
+	ln -s /opt/blast/bin/* /usr/local/bin/
+PLUMBER
+	apt-get install -y libssl-dev libsodium-dev libcurl4-openssl-dev libx ml2-dev build-essential wget unzip && rm -rf /var/lib/apt/lists/*	
+	R -e "install.packages('plumber', repos='https://cloud.r-project.org/')"
+
+R
+> library(plumber)
+> packageVersion("plumber")
+[1] ‘1.3.0’
+>
+
+PS C:\Users\veros> docker ps -a
+	dc0da2efa81d rocker/r-base:latest "/bin/bash" 50 minutes ago Exited (0) 18 seconds ago r-base-blast
+PS C:\Users\veros> docker commit r-base-blast veroyols/blast-r:latest
+sha256:90c54a4353964ed2b8b44e965bb5a3ac3d4e276bd5aef9d73f0d1848377b6b95
+
+PS C:\Users\veros> docker images
+PS C:\Users\veros> docker push veroyols/blast-r:latest
+
+
+-----------------DESCARGAR BD -----------------
+C:\Users\veros>docker run -it --name blast-container veroyols/blast-r:latest bash
+apt-get update && apt-get install -y perl curl
+EN LA CARPETA blast/blastdb HAGO /opt/blast/bin/update_blastdb.pl --source gcp pdbaa
+PS C:\Users\veros> docker commit blast-container veroyols/blast-r:latest
+C:\Users\veros>docker commit blast-container veroyols/blast-r:latest
+sha256:69cb50df97279424847dec6f5b4530b43a5a97f5144d460bbd56cd2a0a1a8293
+
+C:\Users\veros>docker push veroyols/blast-r:latest
+The push refers to repository [docker.io/veroyols/blast-r]
+83ac823bb686: Pushing [=====>                                             ]  39.53MB/336.3MB
+52ce88513a62: Layer already exists
+69af0957a6f4: Layer already exists
+cb7175931f83: Layer already exists
+b2c5e942266c: Layer already exists
+1d23be2ddfd0: Layer already exists
+93cda266aa27: Layer already exists
+5969267de1a1: Layer already exists
+-----------------------------------------------	
