@@ -1,5 +1,11 @@
 https://www.ncbi.nlm.nih.gov/sites/books/NBK279684/table/appendices.T.blastx_application_options/
 
+BLAST® Command Line Applications User Manual
+https://www.ncbi.nlm.nih.gov/books/NBK279690/
+
+BLASTX
+https://www.ncbi.nlm.nih.gov/books/NBK279684/
+
 option      task    type    default value   description and notes
 word_size   Blastx  integer     3           Word size for initial match. Valid word sizes are 2-7.
 gapopen     All     integer     11          Cost to open a gap.  

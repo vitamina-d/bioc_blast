@@ -2,7 +2,7 @@ library(plumber)
 library(jsonlite)
 #* BLASTX traduce en los 6 marcos de lectura posibles y busca similitudes contra proteínas del PDB
 #* @tag BLAST 
-#* @param sequence
+#* @param sequence:string
 #* @post /
 #* @serializer unboxedJSON 
 
@@ -23,6 +23,7 @@ function(sequence) {
         "-db /opt/blast/blastdb/pdbaa", 
         "-outfmt", "15"
     )
+
     cat("CMD: ", cmd, "\n")
 
     out <- tryCatch({
