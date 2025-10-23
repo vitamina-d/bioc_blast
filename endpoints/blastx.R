@@ -10,9 +10,6 @@ function(sequence) {
 
     cat("SEQUENCE: ", sequence, "\n")
     
-    start_time <- Sys.time()
-    cat("START: ", start_time, "\n")
-
     tmpfile <- tempfile(fileext = ".fna")
     cat("TEMP: ", tmpfile, "\n")
 
@@ -41,14 +38,9 @@ function(sequence) {
     if (is.null(out)) {
         cat("OUT IS NULL", "\n")
 
-        end_time <- Sys.time()
-        time <- as.numeric(difftime(end_time, start_time, units = "secs"))
-
         response <- list(
             code = 500,
             message = "try catch",
-            datetime = start_time,
-            time_secs = time,
             data = NULL
         )
 
@@ -66,16 +58,10 @@ function(sequence) {
             cat("ERROR jsonlite::fromJSON------------- ", "\n")
         })
         
-        end_time <- Sys.time()
-        time <- as.numeric(difftime(end_time, start_time, units = "secs"))
-
         response <- list(
             code = 200,
             message = "Ok",
-            datetime = start_time,
-            time_secs = time,
             data = result
-            
         )
     }
     return(response)
