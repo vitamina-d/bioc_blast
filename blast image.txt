@@ -67,3 +67,46 @@ b2c5e942266c: Layer already exists
 93cda266aa27: Layer already exists
 5969267de1a1: Layer already exists
 -----------------------------------------------	
+C:\Users\veros>docker run -it --name blast-container veroyols/blast-r:latest bash
+
+root@8344d41eb30b:/opt/blast/swissprot# ls
+root@8344d41eb30b:/opt/blast/swissprot# wget https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz
+--2025-11-15 18:11:16--  https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz
+Resolving ftp.uniprot.org (ftp.uniprot.org)... 128.175.240.195
+Connecting to ftp.uniprot.org (ftp.uniprot.org)|128.175.240.195|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 93100075 (89M) [application/x-gzip]
+Saving to: ‘uniprot_sprot.fasta.gz’
+
+uniprot_sprot.fasta.gz        100%[=================================================>]  88.79M  2.60MB/s    in 35s
+
+2025-11-15 18:11:52 (2.56 MB/s) - ‘uniprot_sprot.fasta.gz’ saved [93100075/93100075]
+
+root@8344d41eb30b:/opt/blast/swissprot# ls
+uniprot_sprot.fasta.gz
+root@8344d41eb30b:/opt/blast/swissprot# gunzip uniprot_sprot.fasta.gz
+root@8344d41eb30b:/opt/blast/swissprot# ls
+uniprot_sprot.fasta
+root@8344d41eb30b:/opt/blast/swissprot# makeblastdb -in uniprot_sprot.fasta \
+            -dbtype prot \
+            -parse_seqids \
+            -out swissprot
+
+
+Building a new DB, current time: 11/15/2025 18:13:07
+New DB name:   /opt/blast/swissprot/swissprot
+New DB title:  uniprot_sprot.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 573661 sequences in 26.345 seconds.
+
+
+root@8344d41eb30b:/opt/blast/swissprot# ls
+swissprot.pdb  swissprot.pin  swissprot.pog  swissprot.pot  swissprot.ptf  uniprot_sprot.fasta
+swissprot.phr  swissprot.pjs  swissprot.pos  swissprot.psq  swissprot.pto
+root@8344d41eb30b:/opt/blast/swissprot#
+
+PS C:\Users\veros>     docker commit 8344d41eb30b  veroyols/blast-r:swissprot
+sha256:ab48c75cf8c9e8f31888c79c1906a6953fc5624f4a81b4bda12db83dac716e5a
+PS C:\Users\veros> docker push veroyols/blast-r:swissprot

@@ -1,0 +1,5084 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput SYSTEM "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd" PUBLIC "-//NCBI//NCBI BlastOutput/EN">
+
+-
+<BlastOutput>
+	<BlastOutput_program>blastx</BlastOutput_program>
+	<BlastOutput_version>BLASTX 2.17.0+</BlastOutput_version>
+	<BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs", Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+	<BlastOutput_db>nr_cluster_seq</BlastOutput_db>
+	<BlastOutput_query-ID>Query_4690166</BlastOutput_query-ID>
+	<BlastOutput_query-def>No definition line</BlastOutput_query-def>
+	<BlastOutput_query-len>320</BlastOutput_query-len>
+
+
+-
+	<BlastOutput_param>
+
+
+-
+		<Parameters>
+			<Parameters_matrix>BLOSUM62</Parameters_matrix>
+			<Parameters_expect>0.05</Parameters_expect>
+			<Parameters_gap-open>11</Parameters_gap-open>
+			<Parameters_gap-extend>1</Parameters_gap-extend>
+			<Parameters_filter>L;</Parameters_filter>
+		</Parameters>
+	</BlastOutput_param>
+
+
+-
+	<BlastOutput_iterations>
+
+
+-
+		<Iteration>
+			<Iteration_iter-num>1</Iteration_iter-num>
+			<Iteration_query-ID>Query_4690166</Iteration_query-ID>
+			<Iteration_query-def>No definition line</Iteration_query-def>
+			<Iteration_query-len>320</Iteration_query-len>
+
+
+-
+			<Iteration_hits>
+
+
+-
+				<Hit>
+					<Hit_num>1</Hit_num>
+					<Hit_id>ref|XP_030784615.1|</Hit_id>
+					<Hit_def>transmembrane protein 14C isoform X4 [Rhinopithecus roxellana]</Hit_def>
+					<Hit_accession>XP_030784615</Hit_accession>
+					<Hit_len>116</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>83.9593</Hsp_bit-score>
+							<Hsp_score>206</Hsp_score>
+							<Hsp_evalue>2.85765e-18</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>65</Hsp_hit-from>
+							<Hsp_hit-to>111</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ESCSVAQAGVQWHDLGSLQPLPPGFKQFFCLSLLSSWDYRHVPPCLA</Hsp_hseq>
+							<Hsp_midline>ESC V QAGVQW DL SLQPL PGFKQF CLSLLSSWDYR VPPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>2</Hit_num>
+					<Hit_id>gb|KAL0614964.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0614964</Hit_accession>
+					<Hit_len>201</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>83.9593</Hsp_bit-score>
+							<Hsp_score>206</Hsp_score>
+							<Hsp_evalue>2.4449e-17</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>89</Hsp_hit-from>
+							<Hsp_hit-to>134</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>TESCSVTQAGVQWCNLISLQPRPPRFKQFSCLSLLSSWDYRRAPPC</Hsp_hseq>
+							<Hsp_midline>TESC VTQAGVQWC+L SLQP P FKQFSCLSLLSSWDYRR PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>3</Hit_num>
+					<Hit_id>gb|EHH64647.1|</Hit_id>
+					<Hit_def>hypothetical protein EGM_17921, partial [Macaca fascicularis]</Hit_def>
+					<Hit_accession>EHH64647</Hit_accession>
+					<Hit_len>88</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.8777</Hsp_bit-score>
+							<Hsp_score>198</Hsp_score>
+							<Hsp_evalue>2.61744e-17</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>5</Hsp_hit-from>
+							<Hsp_hit-to>50</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ETESHSVTQAGVQWCDLSSLQPLPPGFKRFSCLSLPSSWDYRHTPP</Hsp_hseq>
+							<Hsp_midline>ETES VTQAGVQWCDLSSLQPL PGFK+FSCLSL SSWDYR PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>4</Hit_num>
+					<Hit_id>gb|KAL0626229.1|</Hit_id>
+					<Hit_def>putative uncharacterized protein CCDC28A-AS1 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0626229</Hit_accession>
+					<Hit_len>223</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>83.5741</Hsp_bit-score>
+							<Hsp_score>205</Hsp_score>
+							<Hsp_evalue>5.237e-17</Hsp_evalue>
+							<Hsp_query-from>22</Hsp_query-from>
+							<Hsp_query-to>180</Hsp_query-to>
+							<Hsp_hit-from>7</Hsp_hit-from>
+							<Hsp_hit-to>59</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>40</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>53</Hsp_align-len>
+							<Hsp_qseq>PHNHXXXXXXFETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYR</Hsp_qseq>
+							<Hsp_hseq>PINHMLQMEVLNAESCSVTQAGVQWCDLSSLQPLPPGFKQFSCLSFLSSWDYR</Hsp_hseq>
+							<Hsp_midline>P NH ESC VTQAGVQWCDLSSLQPL PGFKQFSCLS LSSWDYR</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>5</Hit_num>
+					<Hit_id>gb|EHH15918.1|</Hit_id>
+					<Hit_def>hypothetical protein EGK_02088, partial [Macaca mulatta]</Hit_def>
+					<Hit_accession>EHH15918</Hit_accession>
+					<Hit_len>93</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>9.61531e-17</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>138</Hsp_query-to>
+							<Hsp_hit-from>11</Hsp_hit-from>
+							<Hsp_hit-to>56</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>SCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>SCSVTQAGVQWLDLSSLQPLPPGFTRFSCLSLPSSWDYRRVPPCLA</Hsp_hseq>
+							<Hsp_midline>SC VTQAGVQW DLSSLQPL PGF +FSCLSL SSWDYRRVPPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>6</Hit_num>
+					<Hit_id>gb|KAL0629909.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_003238 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0629909</Hit_accession>
+					<Hit_len>528</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>85.5001</Hsp_bit-score>
+							<Hsp_score>210</Hsp_score>
+							<Hsp_evalue>1.01272e-16</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>157</Hsp_hit-from>
+							<Hsp_hit-to>202</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>40</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>DMESCSVTQAGVQWYDLGSLQPLTPGFKQFSCLSLLSSWDYRRSPP</Hsp_hseq>
+							<Hsp_midline>+ ESC VTQAGVQW DL SLQPLTPGFKQFSCLSLLSSWDYRR PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>7</Hit_num>
+					<Hit_id>gb|EHH16412.1|</Hit_id>
+					<Hit_def>hypothetical protein EGK_11692, partial [Macaca mulatta]</Hit_def>
+					<Hit_accession>EHH16412</Hit_accession>
+					<Hit_len>78</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>78.5666</Hsp_bit-score>
+							<Hsp_score>192</Hsp_score>
+							<Hsp_evalue>1.3694e-16</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>6</Hsp_hit-from>
+							<Hsp_hit-to>54</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>42</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ETESHSVTQTGVQWCNVGSLQPLPPGFKRFSCLSLLSSWDYRHVPPRLA</Hsp_hseq>
+							<Hsp_midline>ETES VTQ GVQWC++ SLQPL PGFK+FSCLSLLSSWDYR VPP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>8</Hit_num>
+					<Hit_id>gb|KAL0594953.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_035141 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0594953</Hit_accession>
+					<Hit_len>736</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>85.1149</Hsp_bit-score>
+							<Hsp_score>209</Hsp_score>
+							<Hsp_evalue>1.67223e-16</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>382</Hsp_hit-from>
+							<Hsp_hit-to>428</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>40</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>ETESHCVAQAGVQWCDLGSLQPLPPGFKQFSCLSLLSNWDYRRAPLC</Hsp_hseq>
+							<Hsp_midline>ETES CV QAGVQWCDL SLQPL PGFKQFSCLSLLS+WDYRR P C</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>56.9954</Hsp_bit-score>
+							<Hsp_score>136</Hsp_score>
+							<Hsp_evalue>1.25049e-06</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>512</Hsp_hit-from>
+							<Hsp_hit-to>556</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>32</Hsp_identity>
+							<Hsp_positive>34</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>TESHSVAQAGVQCLDLSSLQPLPPRFKRFSHLSLPSSWDYRYMLP</Hsp_hseq>
+							<Hsp_midline>TES V QAGVQ DLSSLQPL P FK+FS LSL SSWDYR + P</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>9</Hit_num>
+					<Hit_id>ref|XP_017746647.1|</Hit_id>
+					<Hit_def>PREDICTED: transmembrane protein 14C isoform X1 [Rhinopithecus bieti]</Hit_def>
+					<Hit_accession>XP_017746647</Hit_accession>
+					<Hit_len>150</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.4925</Hsp_bit-score>
+							<Hsp_score>197</Hsp_score>
+							<Hsp_evalue>1.71881e-16</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>99</Hsp_hit-from>
+							<Hsp_hit-to>145</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ESCSVAQAGVQWHDLGSLQPLPPRFKQFFCLSLLSSWDYRHVPPCLA</Hsp_hseq>
+							<Hsp_midline>ESC V QAGVQW DL SLQPL P FKQF CLSLLSSWDYR VPPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>10</Hit_num>
+					<Hit_id>gb|KAL0586531.1|</Hit_id>
+					<Hit_def>Vacuolar protein sorting-associated protein 13D, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0586531</Hit_accession>
+					<Hit_len>710</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>84.3445</Hsp_bit-score>
+							<Hsp_score>207</Hsp_score>
+							<Hsp_evalue>2.71125e-16</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>228</Hsp_hit-from>
+							<Hsp_hit-to>276</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>42</Hsp_identity>
+							<Hsp_positive>44</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ETESRFVTQAGVQWNDLSSLQPLPPGFKRFSCLSLLSSWDYRRPPPCLA</Hsp_hseq>
+							<Hsp_midline>ETES VTQAGVQW DLSSLQPL PGFK+FSCLSLLSSWDYRR PPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>70.4774</Hsp_bit-score>
+							<Hsp_score>171</Hsp_score>
+							<Hsp_evalue>2.02136e-11</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>394</Hsp_hit-from>
+							<Hsp_hit-to>440</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>34</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>KSCPITQAGVQCCDLGSLQPLPPEFKRFLCLSLPNSWDYRRMPPCLT</Hsp_hseq>
+							<Hsp_midline>+SC +TQAGVQ CDL SLQPL P FK+F CLSL +SWDYRR+PPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>11</Hit_num>
+					<Hit_id>gb|EHH66151.1|</Hit_id>
+					<Hit_def>hypothetical protein EGM_03074, partial [Macaca fascicularis]</Hit_def>
+					<Hit_accession>EHH66151</Hit_accession>
+					<Hit_len>46</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>77.0258</Hsp_bit-score>
+							<Hsp_score>188</Hsp_score>
+							<Hsp_evalue>2.9262e-16</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>1</Hsp_hit-from>
+							<Hsp_hit-to>46</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ETESHSVAQTGVQWCNLSSLQPPPPGFKRFSCLSLLSSWDYRRAPP</Hsp_hseq>
+							<Hsp_midline>ETES V Q GVQWC+LSSLQP PGFK+FSCLSLLSSWDYRR PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>12</Hit_num>
+					<Hit_id>gb|KAL0622393.1|</Hit_id>
+					<Hit_def>GTP-binding protein 2 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0622393</Hit_accession>
+					<Hit_len>240</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>81.6481</Hsp_bit-score>
+							<Hsp_score>200</Hsp_score>
+							<Hsp_evalue>3.8504e-16</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>2</Hsp_hit-from>
+							<Hsp_hit-to>48</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ESCSVAQAGVQWCDLSSLQLLPPGFQQFSCLSLLNSWDYRHLPLCLA</Hsp_hseq>
+							<Hsp_midline>ESC V QAGVQWCDLSSLQ L PGF+QFSCLSLL+SWDYR +P CL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>13</Hit_num>
+					<Hit_id>gb|KAL0598546.1|</Hit_id>
+					<Hit_def>Protein GVQW1 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0598546</Hit_accession>
+					<Hit_len>171</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>4.11854e-16</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>106</Hsp_hit-from>
+							<Hsp_hit-to>151</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ETESCSVTQAGVQWCDLSSLQPPPPRFKQFSCLSLPSNWDYRRAPP</Hsp_hseq>
+							<Hsp_midline>ETESC VTQAGVQWCDLSSLQP P FKQFSCLSL S+WDYRR PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>14</Hit_num>
+					<Hit_id>gb|KAL0599583.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_029459 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0599583</Hit_accession>
+					<Hit_len>427</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>83.5741</Hsp_bit-score>
+							<Hsp_score>205</Hsp_score>
+							<Hsp_evalue>4.43536e-16</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>235</Hsp_hit-from>
+							<Hsp_hit-to>283</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>42</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>EMESCCVAQAGVQWHNLGSLQPLPPGFKRFSCLSLLSSWDYRRTPPHLA</Hsp_hseq>
+							<Hsp_midline>E ESCCV QAGVQW +L SLQPL PGFK+FSCLSLLSSWDYRR PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>15</Hit_num>
+					<Hit_id>gb|KAL0610799.1|</Hit_id>
+					<Hit_def>Intraflagellar transport protein 81-like protein [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0610799</Hit_accession>
+					<Hit_len>567</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>83.5741</Hsp_bit-score>
+							<Hsp_score>205</Hsp_score>
+							<Hsp_evalue>5.11983e-16</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>513</Hsp_hit-from>
+							<Hsp_hit-to>558</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ETEFCFVVQAGVQWCDLGSLQPLPPGFKQFSCLSLLSSWDYRHPPP</Hsp_hseq>
+							<Hsp_midline>ETE C V QAGVQWCDL SLQPL PGFKQFSCLSLLSSWDYR PP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>48.521</Hsp_bit-score>
+							<Hsp_score>114</Hsp_score>
+							<Hsp_evalue>0.000911793</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>132</Hsp_query-to>
+							<Hsp_hit-from>368</Hsp_hit-from>
+							<Hsp_hit-to>410</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>25</Hsp_identity>
+							<Hsp_positive>30</Hsp_positive>
+							<Hsp_gaps>2</Hsp_gaps>
+							<Hsp_align-len>43</Hsp_align-len>
+							<Hsp_qseq>CVTQAGVQWCDLSSLQ--PLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>VVSEPAMGHSDLLELESKPLPPGFKQFSCLSLSSSWDYRYLPP</Hsp_hseq>
+							<Hsp_midline> V++ + DL L+ PL PGFKQFSCLSL SSWDYR +PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>16</Hit_num>
+					<Hit_id>gb|KAL0588225.1|</Hit_id>
+					<Hit_def>retrotransposable element ORF2 protein, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0588225</Hit_accession>
+					<Hit_len>460</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>83.5741</Hsp_bit-score>
+							<Hsp_score>205</Hsp_score>
+							<Hsp_evalue>5.16207e-16</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>369</Hsp_hit-from>
+							<Hsp_hit-to>414</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>QAESCPITQAGVQWCDLHSLQPLLPEFKQFTCLSLLSSWDYRRTPP</Hsp_hseq>
+							<Hsp_midline>+ ESC +TQAGVQWCDL SLQPL P FKQF+CLSLLSSWDYRR PP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>55.8398</Hsp_bit-score>
+							<Hsp_score>133</Hsp_score>
+							<Hsp_evalue>2.89295e-06</Hsp_evalue>
+							<Hsp_query-from>25</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>421</Hsp_hit-from>
+							<Hsp_hit-to>460</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>28</Hsp_identity>
+							<Hsp_positive>30</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>40</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDY</Hsp_qseq>
+							<Hsp_hseq>SRSLSVAQAGVQWHDLSSLQPPPPLFKQFSSLSLPSTWDY</Hsp_hseq>
+							<Hsp_midline>+ S V QAGVQW DLSSLQP P FKQFS LSL S+WDY</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>17</Hit_num>
+					<Hit_id>gb|KAL0618340.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0618340</Hit_accession>
+					<Hit_len>292</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>82.0333</Hsp_bit-score>
+							<Hsp_score>201</Hsp_score>
+							<Hsp_evalue>5.98958e-16</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>22</Hsp_hit-from>
+							<Hsp_hit-to>68</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>ETESCTVTQAVVQWHDLGSLQSLPPGFKQFSCLSLLSSWDYRHAPPC</Hsp_hseq>
+							<Hsp_midline>ETESC VTQA VQW DL SLQ L PGFKQFSCLSLLSSWDYR PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>18</Hit_num>
+					<Hit_id>ref|XP_058288104.1|</Hit_id>
+					<Hit_def>LYR motif-containing protein 4 isoform X1 [Hylobates moloch]</Hit_def>
+					<Hit_accession>XP_058288104</Hit_accession>
+					<Hit_len>141</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>78.9518</Hsp_bit-score>
+							<Hsp_score>193</Hsp_score>
+							<Hsp_evalue>6.0868e-16</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>69</Hsp_hit-from>
+							<Hsp_hit-to>117</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>QTEPHTVTQAGVQWRDLGSLQSLTPGFKPFSCLSLLSSWDYRHAPPCLA</Hsp_hseq>
+							<Hsp_midline>+TE VTQAGVQW DL SLQ LTPGFK FSCLSLLSSWDYR PPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>19</Hit_num>
+					<Hit_id>gb|KAL0598259.1|</Hit_id>
+					<Hit_def>putative uncharacterized protein CCDC28A-AS1, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0598259</Hit_accession>
+					<Hit_len>594</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>83.1889</Hsp_bit-score>
+							<Hsp_score>204</Hsp_score>
+							<Hsp_evalue>6.39115e-16</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>80</Hsp_hit-from>
+							<Hsp_hit-to>125</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ETESCSVAQAGVQWCNLSSLQPPPPGFKQFSCLSLLNSWDYRRAPP</Hsp_hseq>
+							<Hsp_midline>ETESC V QAGVQWC+LSSLQP PGFKQFSCLSLL+SWDYRR PP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>80.8777</Hsp_bit-score>
+							<Hsp_score>198</Hsp_score>
+							<Hsp_evalue>4.602e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>290</Hsp_hit-from>
+							<Hsp_hit-to>333</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>44</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ESCPVAQAGVQWCDLSSLQPLSPGVKQFSCLSLLSSWDYRHLPP</Hsp_hseq>
+							<Hsp_midline>ESC V QAGVQWCDLSSLQPL+PG KQFSCLSLLSSWDYR +PP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>53.1434</Hsp_bit-score>
+							<Hsp_score>126</Hsp_score>
+							<Hsp_evalue>2.4569e-05</Hsp_evalue>
+							<Hsp_query-from>25</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>554</Hsp_hit-from>
+							<Hsp_hit-to>594</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>29</Hsp_identity>
+							<Hsp_positive>30</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>41</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDY</Hsp_qseq>
+							<Hsp_hseq>ETESRSVTQAEVHWHNLCSLQPPLPWFKQFSSLSLLSCWDY</Hsp_hseq>
+							<Hsp_midline>ETES VTQA V W +L SLQP P FKQFS LSLLS WDY</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>4</Hsp_num>
+							<Hsp_bit-score>45.0542</Hsp_bit-score>
+							<Hsp_score>105</Hsp_score>
+							<Hsp_evalue>0.0171037</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>439</Hsp_hit-from>
+							<Hsp_hit-to>483</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>27</Hsp_identity>
+							<Hsp_positive>31</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>QSCSVTHTGVQWHDPGSPQPPPPGLERSSCLSLLRSWDYSCMPPC</Hsp_hseq>
+							<Hsp_midline>+SC VT GVQW D S QP PG ++ SCLSLL SWDY +PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>20</Hit_num>
+					<Hit_id>gb|KAL0603247.1|</Hit_id>
+					<Hit_def>MICOS complex subunit MIC10 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0603247</Hit_accession>
+					<Hit_len>1058</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>83.1889</Hsp_bit-score>
+							<Hsp_score>204</Hsp_score>
+							<Hsp_evalue>6.79757e-16</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>871</Hsp_hit-from>
+							<Hsp_hit-to>917</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>QTESCSVPQAGVQWRDLGSLQPLPPGFKRFSCLSLLNSWDYRRAPPC</Hsp_hseq>
+							<Hsp_midline>+TESC V QAGVQW DL SLQPL PGFK+FSCLSLL+SWDYRR PPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>67.3958</Hsp_bit-score>
+							<Hsp_score>163</Hsp_score>
+							<Hsp_evalue>2.47561e-10</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>135</Hsp_query-to>
+							<Hsp_hit-from>968</Hsp_hit-from>
+							<Hsp_hit-to>1012</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>32</Hsp_identity>
+							<Hsp_positive>35</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>CCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ALVAQATVQWHDLGSLQPPPPGFKRFSCLTLLSSWDYRHVPLCLA</Hsp_hseq>
+							<Hsp_midline> V QA VQW DL SLQP PGFK+FSCL+LLSSWDYR VP CL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>21</Hit_num>
+					<Hit_id>gb|KAL0626971.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_000280 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0626971</Hit_accession>
+					<Hit_len>79</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>76.6406</Hsp_bit-score>
+							<Hsp_score>187</Hsp_score>
+							<Hsp_evalue>7.15169e-16</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>13</Hsp_hit-from>
+							<Hsp_hit-to>60</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>2</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>ETESCCVT--QAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>HTESCFVARRQAGVQWCDLSSLRPPSPGFKQFSCLSLLSNWDYRRTPP</Hsp_hseq>
+							<Hsp_midline> TESC V QAGVQWCDLSSL+P +PGFKQFSCLSLLS+WDYRR PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>22</Hit_num>
+					<Hit_id>gb|KAL4665256.1|</Hit_id>
+					<Hit_def>hypothetical protein H8957_016545, partial [Semnopithecus entellus]</Hit_def>
+					<Hit_accession>KAL4665256</Hit_accession>
+					<Hit_len>51</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>75.8702</Hsp_bit-score>
+							<Hsp_score>185</Hsp_score>
+							<Hsp_evalue>8.1966e-16</Hsp_evalue>
+							<Hsp_query-from>13</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>7</Hsp_hit-from>
+							<Hsp_hit-to>51</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>37</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVP</Hsp_qseq>
+							<Hsp_hseq>EMESCSVAQAGVQWHDLGSLQPLPSGFKQFSCLRLLSSWDYRRMP</Hsp_hseq>
+							<Hsp_midline>E ESC V QAGVQW DL SLQPL GFKQFSCL LLSSWDYRR+P</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>23</Hit_num>
+					<Hit_id>gb|EHH58869.1|</Hit_id>
+					<Hit_def>hypothetical protein EGM_08825, partial [Macaca fascicularis]</Hit_def>
+					<Hit_accession>EHH58869</Hit_accession>
+					<Hit_len>65</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>76.2554</Hsp_bit-score>
+							<Hsp_score>186</Hsp_score>
+							<Hsp_evalue>8.67897e-16</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>5</Hsp_hit-from>
+							<Hsp_hit-to>47</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>43</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>VAQAGVQWCDLSSLQPLPPGFKQFSCLSLPNSWDYRHAPPCLA</Hsp_hseq>
+							<Hsp_midline>V QAGVQWCDLSSLQPL PGFKQFSCLSL +SWDYR PPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>24</Hit_num>
+					<Hit_id>gb|KAL0601199.1|</Hit_id>
+					<Hit_def>Protein GVQW1 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0601199</Hit_accession>
+					<Hit_len>249</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.8777</Hsp_bit-score>
+							<Hsp_score>198</Hsp_score>
+							<Hsp_evalue>9.20811e-16</Hsp_evalue>
+							<Hsp_query-from>13</Hsp_query-from>
+							<Hsp_query-to>189</Hsp_query-to>
+							<Hsp_hit-from>140</Hsp_hit-from>
+							<Hsp_hit-to>198</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>41</Hsp_identity>
+							<Hsp_positive>42</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>59</Hsp_align-len>
+							<Hsp_qseq>PLTPHNHXXXXXXFETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVP</Hsp_qseq>
+							<Hsp_hseq>PGSPLNFQTSTEVGETESHSVTQAGVQWCDLGSLQPLPPRFKQFSCLGLPSSWDYRRVP</Hsp_hseq>
+							<Hsp_midline>P +P N ETES VTQAGVQWCDL SLQPL P FKQFSCL L SSWDYRRVP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>25</Hit_num>
+					<Hit_id>gb|KAL0605811.1|</Hit_id>
+					<Hit_def>Sushi domain-containing protein 1 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0605811</Hit_accession>
+					<Hit_len>844</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>82.8037</Hsp_bit-score>
+							<Hsp_score>203</Hsp_score>
+							<Hsp_evalue>9.99693e-16</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>563</Hsp_hit-from>
+							<Hsp_hit-to>609</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>HTESGSVTQAGVQWYDLDSLQPLPPGFKQFSCLSLLSSWDYRHLPPC</Hsp_hseq>
+							<Hsp_midline> TES VTQAGVQW DL SLQPL PGFKQFSCLSLLSSWDYR +PPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>67.0106</Hsp_bit-score>
+							<Hsp_score>162</Hsp_score>
+							<Hsp_evalue>3.2397e-10</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>2</Hsp_hit-from>
+							<Hsp_hit-to>48</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>33</Hsp_identity>
+							<Hsp_positive>36</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ESHFVTLPGVQWCYLGSLQPVPPGFKQFPCFSLLSSWVYRCVPPCMA</Hsp_hseq>
+							<Hsp_midline>ES VT GVQWC L SLQP+ PGFKQF C SLLSSW YR VPPC++</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>51.6026</Hsp_bit-score>
+							<Hsp_score>122</Hsp_score>
+							<Hsp_evalue>9.86034e-05</Hsp_evalue>
+							<Hsp_query-from>22</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>179</Hsp_hit-from>
+							<Hsp_hit-to>220</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>27</Hsp_identity>
+							<Hsp_positive>29</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>42</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYR</Hsp_qseq>
+							<Hsp_hseq>QMESPSVAQAGVQWSDLGSLQPPPPRFKQFSCLSLLKMGFHR</Hsp_hseq>
+							<Hsp_midline>+ ES V QAGVQW DL SLQP P FKQFSCLSLL +R</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>26</Hit_num>
+					<Hit_id>gb|KAL0607046.1|</Hit_id>
+					<Hit_def>LINE-1 retrotransposable element ORF1 protein [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0607046</Hit_accession>
+					<Hit_len>643</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>82.8037</Hsp_bit-score>
+							<Hsp_score>203</Hsp_score>
+							<Hsp_evalue>1.03829e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>420</Hsp_hit-from>
+							<Hsp_hit-to>464</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>ESCSVAQAGVQWCDLGSLQSLPPGFKQFSCLSLLSSWDYRQEPPC</Hsp_hseq>
+							<Hsp_midline>ESC V QAGVQWCDL SLQ L PGFKQFSCLSLLSSWDYR+ PPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>69.3218</Hsp_bit-score>
+							<Hsp_score>168</Hsp_score>
+							<Hsp_evalue>5.09972e-11</Hsp_evalue>
+							<Hsp_query-from>4</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>506</Hsp_hit-from>
+							<Hsp_hit-to>550</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>35</Hsp_identity>
+							<Hsp_positive>37</Hsp_positive>
+							<Hsp_gaps>3</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCL</Hsp_qseq>
+							<Hsp_hseq>QMESPSVTQAGVQWRDLGSPQPLPPGFKQFSC---LSSWDYRHMPPCL</Hsp_hseq>
+							<Hsp_midline>+ ES VTQAGVQW DL S QPL PGFKQFSC LSSWDYR +PPCL</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>61.2326</Hsp_bit-score>
+							<Hsp_score>147</Hsp_score>
+							<Hsp_evalue>3.62047e-08</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>117</Hsp_query-to>
+							<Hsp_hit-from>552</Hsp_hit-from>
+							<Hsp_hit-to>588</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>29</Hsp_identity>
+							<Hsp_positive>31</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>37</Hsp_align-len>
+							<Hsp_qseq>GVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>GVQWCNHGSLQPPPPGFKQFSYLSLLSSWNYRCVPPC</Hsp_hseq>
+							<Hsp_midline>GVQWC+ SLQP PGFKQFS LSLLSSW+YR VPPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>27</Hit_num>
+					<Hit_id>gb|KAL0625755.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0625755</Hit_accession>
+					<Hit_len>200</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>1.12375e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>88</Hsp_hit-from>
+							<Hsp_hit-to>133</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>EMDSCCVAQAGVQWHNLSSWQPLPPGFKKFSCLSLLSSWDYRYIPP</Hsp_hseq>
+							<Hsp_midline>E +SCCV QAGVQW +LSS QPL PGFK+FSCLSLLSSWDYR +PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>28</Hit_num>
+					<Hit_id>dbj|BAE00668.1|</Hit_id>
+					<Hit_def>unnamed protein product [Macaca fascicularis]</Hit_def>
+					<Hit_accession>BAE00668</Hit_accession>
+					<Hit_len>120</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>77.411</Hsp_bit-score>
+							<Hsp_score>189</Hsp_score>
+							<Hsp_evalue>1.20117e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>71</Hsp_hit-from>
+							<Hsp_hit-to>115</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>ESCPVTQAGVQWHDLGSLQPLPPGFKRFSCLSLPGSWDYRRLPPC</Hsp_hseq>
+							<Hsp_midline>ESC VTQAGVQW DL SLQPL PGFK+FSCLSL SWDYRR+PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>29</Hit_num>
+					<Hit_id>gb|KAL0611847.1|</Hit_id>
+					<Hit_def>Kinesin heavy chain isoform 5A [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0611847</Hit_accession>
+					<Hit_len>1591</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>82.4185</Hsp_bit-score>
+							<Hsp_score>202</Hsp_score>
+							<Hsp_evalue>1.23851e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>138</Hsp_query-to>
+							<Hsp_hit-from>85</Hsp_hit-from>
+							<Hsp_hit-to>130</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>SCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>SLAVPQAGVQWCNLSSLQPPPPGFKQFSCLSLLSSWDYRRLPPCLA</Hsp_hseq>
+							<Hsp_midline>S V QAGVQWC+LSSLQP PGFKQFSCLSLLSSWDYRR+PPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>30</Hit_num>
+					<Hit_id>gb|KAL0601744.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0601744</Hit_accession>
+					<Hit_len>663</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>82.4185</Hsp_bit-score>
+							<Hsp_score>202</Hsp_score>
+							<Hsp_evalue>1.28939e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>382</Hsp_hit-from>
+							<Hsp_hit-to>430</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>EMESYSVTQAGVQWCDLGLLQPLPPGFKQFSCLSLLSSWDYRHTPPSLA</Hsp_hseq>
+							<Hsp_midline>E ES VTQAGVQWCDL LQPL PGFKQFSCLSLLSSWDYR PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>31</Hit_num>
+					<Hit_id>gb|KAL0616083.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0616083</Hit_accession>
+					<Hit_len>179</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>78.9518</Hsp_bit-score>
+							<Hsp_score>193</Hsp_score>
+							<Hsp_evalue>1.37505e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>108</Hsp_hit-from>
+							<Hsp_hit-to>155</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>TESCTVTQIVVQWCDLSSLQSLPPGFKQFSCLSLPSSWDYRRTPPRLA</Hsp_hseq>
+							<Hsp_midline>TESC VTQ VQWCDLSSLQ L PGFKQFSCLSL SSWDYRR PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>32</Hit_num>
+					<Hit_id>gb|EHH28336.1|</Hit_id>
+					<Hit_def>hypothetical protein EGK_18756, partial [Macaca mulatta]</Hit_def>
+					<Hit_accession>EHH28336</Hit_accession>
+					<Hit_len>60</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>75.485</Hsp_bit-score>
+							<Hsp_score>184</Hsp_score>
+							<Hsp_evalue>1.3962e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>1</Hsp_hit-from>
+							<Hsp_hit-to>47</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ESHSVAQAGVQWHDLSSLQPPPPRFKRFSCLSLLSSWDYRRVPPCLA</Hsp_hseq>
+							<Hsp_midline>ES V QAGVQW DLSSLQP P FK+FSCLSLLSSWDYRRVPPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>33</Hit_num>
+					<Hit_id>gb|KAL0616558.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_013405, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0616558</Hit_accession>
+					<Hit_len>189</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>78.9518</Hsp_bit-score>
+							<Hsp_score>193</Hsp_score>
+							<Hsp_evalue>1.55495e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>39</Hsp_hit-from>
+							<Hsp_hit-to>84</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>TESYSVTQAGVQWCDLSSLQPLPLGFRRFSCLSLLSSWDYRHVSPC</Hsp_hseq>
+							<Hsp_midline>TES VTQAGVQWCDLSSLQPL GF++FSCLSLLSSWDYR V PC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>34</Hit_num>
+					<Hit_id>gb|EHH24999.1|</Hit_id>
+					<Hit_def>hypothetical protein EGK_08749, partial [Macaca mulatta]</Hit_def>
+					<Hit_accession>EHH24999</Hit_accession>
+					<Hit_len>65</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>75.485</Hsp_bit-score>
+							<Hsp_score>184</Hsp_score>
+							<Hsp_evalue>1.5655e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>1</Hsp_hit-from>
+							<Hsp_hit-to>44</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>44</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>KSCSVAQAGVQWCDLGSLQPLPPRFKPFSCLSLLSSWDYRRVPP</Hsp_hseq>
+							<Hsp_midline>+SC V QAGVQWCDL SLQPL P FK FSCLSLLSSWDYRRVPP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>35</Hit_num>
+					<Hit_id>gb|KAL0594276.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_036676, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0594276</Hit_accession>
+					<Hit_len>897</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>82.0333</Hsp_bit-score>
+							<Hsp_score>201</Hsp_score>
+							<Hsp_evalue>1.60005e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>510</Hsp_hit-from>
+							<Hsp_hit-to>556</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>EARSVARRQAGVQWCDLGSLQPLSPGFKQFSCLSLLSSWDYRHVPPC</Hsp_hseq>
+							<Hsp_midline>E S QAGVQWCDL SLQPL+PGFKQFSCLSLLSSWDYR VPPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>48.1358</Hsp_bit-score>
+							<Hsp_score>113</Hsp_score>
+							<Hsp_evalue>0.000288725</Hsp_evalue>
+							<Hsp_query-from>64</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>32</Hsp_hit-from>
+							<Hsp_hit-to>59</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>23</Hsp_identity>
+							<Hsp_positive>24</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>28</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFK</Hsp_qseq>
+							<Hsp_hseq>ETESCSVAQAGVQWRDLSSLRPPTPGFK</Hsp_hseq>
+							<Hsp_midline>ETESC V QAGVQW DLSSL+P TPGFK</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>25.409</Hsp_bit-score>
+							<Hsp_score>54</Hsp_score>
+							<Hsp_evalue>0.000288725</Hsp_evalue>
+							<Hsp_query-from>6</Hsp_query-from>
+							<Hsp_query-to>38</Hsp_query-to>
+							<Hsp_hit-from>60</Hsp_hit-from>
+							<Hsp_hit-to>70</Hsp_hit-to>
+							<Hsp_query-frame>-1</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>10</Hsp_identity>
+							<Hsp_positive>10</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>11</Hsp_align-len>
+							<Hsp_qseq>VAGTTGVCHHA</Hsp_qseq>
+							<Hsp_hseq>VAGTTGACHHA</Hsp_hseq>
+							<Hsp_midline>VAGTTG CHHA</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>36</Hit_num>
+					<Hit_id>gb|EAW85940.1|</Hit_id>
+					<Hit_def>hCG2040465, partial [Homo sapiens]</Hit_def>
+					<Hit_accession>EAW85940</Hit_accession>
+					<Hit_len>102</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>76.6406</Hsp_bit-score>
+							<Hsp_score>187</Hsp_score>
+							<Hsp_evalue>1.68581e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>29</Hsp_hit-from>
+							<Hsp_hit-to>74</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>EMESHSVTLAGVQWYDLGSLQPLPPGFKQFSCLSLLSSWDYRHVPP</Hsp_hseq>
+							<Hsp_midline>E ES VT AGVQW DL SLQPL PGFKQFSCLSLLSSWDYR VPP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>37</Hit_num>
+					<Hit_id>gb|EHH58664.1|</Hit_id>
+					<Hit_def>hypothetical protein EGM_08570, partial [Macaca fascicularis]</Hit_def>
+					<Hit_accession>EHH58664</Hit_accession>
+					<Hit_len>57</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>75.0998</Hsp_bit-score>
+							<Hsp_score>183</Hsp_score>
+							<Hsp_evalue>1.84021e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>7</Hsp_hit-from>
+							<Hsp_hit-to>53</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>ETESCSVTQAGVHWHNLDSLQPLPPRFKQFSCLSFLSSWDYRCMPPC</Hsp_hseq>
+							<Hsp_midline>ETESC VTQAGV W +L SLQPL P FKQFSCLS LSSWDYR +PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>38</Hit_num>
+					<Hit_id>gb|KAL0595097.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_035287 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0595097</Hit_accession>
+					<Hit_len>356</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>81.2629</Hsp_bit-score>
+							<Hsp_score>199</Hsp_score>
+							<Hsp_evalue>1.87377e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>268</Hsp_hit-from>
+							<Hsp_hit-to>315</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>40</Hsp_identity>
+							<Hsp_positive>42</Hsp_positive>
+							<Hsp_gaps>2</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>ETESCCVT--QAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>QTESCSIARHQAGVQWCDLSSLQPLPPGFKQFSCLSLLSSWDYRHVPP</Hsp_hseq>
+							<Hsp_midline>+TESC + QAGVQWCDLSSLQPL PGFKQFSCLSLLSSWDYR VPP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>39</Hit_num>
+					<Hit_id>gb|KAL0614061.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_017536 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0614061</Hit_accession>
+					<Hit_len>423</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>81.6481</Hsp_bit-score>
+							<Hsp_score>200</Hsp_score>
+							<Hsp_evalue>1.93949e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>77</Hsp_hit-from>
+							<Hsp_hit-to>123</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>DTDSCSVTQAGVQWRHFSSLQPPPPGFKQFSCLSLLSSWDYRRMPPC</Hsp_hseq>
+							<Hsp_midline>+T+SC VTQAGVQW SSLQP PGFKQFSCLSLLSSWDYRR+PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>40</Hit_num>
+					<Hit_id>gb|EHH51808.1|</Hit_id>
+					<Hit_def>hypothetical protein EGM_11255, partial [Macaca fascicularis]</Hit_def>
+					<Hit_accession>EHH51808</Hit_accession>
+					<Hit_len>65</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>75.0998</Hsp_bit-score>
+							<Hsp_score>183</Hsp_score>
+							<Hsp_evalue>2.0126e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>1</Hsp_hit-from>
+							<Hsp_hit-to>44</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>44</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ESCSATQAGVQWCDLGSLQPPPPGFKRFSCLNLLSSWDYRRPPP</Hsp_hseq>
+							<Hsp_midline>ESC TQAGVQWCDL SLQP PGFK+FSCL+LLSSWDYRR PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>41</Hit_num>
+					<Hit_id>gb|KAL0604884.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0604884</Hit_accession>
+					<Hit_len>131</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>77.0258</Hsp_bit-score>
+							<Hsp_score>188</Hsp_score>
+							<Hsp_evalue>2.09959e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>62</Hsp_hit-from>
+							<Hsp_hit-to>105</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>44</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ESCSVTQAGVQWHDLGSLQPLPLVFKQFSCLSLLSSWDYRRLPP</Hsp_hseq>
+							<Hsp_midline>ESC VTQAGVQW DL SLQPL FKQFSCLSLLSSWDYRR+PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>42</Hit_num>
+					<Hit_id>gb|KAL0625573.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0625573</Hit_accession>
+					<Hit_len>368</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>81.2629</Hsp_bit-score>
+							<Hsp_score>199</Hsp_score>
+							<Hsp_evalue>2.17642e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>25</Hsp_hit-from>
+							<Hsp_hit-to>70</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>EMESCSVTQAGVQWRDLGSLKPLSPGFKRFSCLSLSSSWDYRRAPP</Hsp_hseq>
+							<Hsp_midline>E ESC VTQAGVQW DL SL+PL+PGFK+FSCLSL SSWDYRR PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>43</Hit_num>
+					<Hit_id>gb|KAL0616173.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0616173</Hit_accession>
+					<Hit_len>495</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>81.6481</Hsp_bit-score>
+							<Hsp_score>200</Hsp_score>
+							<Hsp_evalue>2.32898e-15</Hsp_evalue>
+							<Hsp_query-from>4</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>60</Hsp_hit-from>
+							<Hsp_hit-to>107</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>40</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCL</Hsp_qseq>
+							<Hsp_hseq>EMESCSVAQAGVQWRDLGSLQPLPPGFKQFSCLSLLSSWDYRRTPPRL</Hsp_hseq>
+							<Hsp_midline>E ESC V QAGVQW DL SLQPL PGFKQFSCLSLLSSWDYRR PP L</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>55.0694</Hsp_bit-score>
+							<Hsp_score>131</Hsp_score>
+							<Hsp_evalue>4.65639e-06</Hsp_evalue>
+							<Hsp_query-from>43</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>447</Hsp_hit-from>
+							<Hsp_hit-to>481</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>27</Hsp_identity>
+							<Hsp_positive>28</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>35</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSL</Hsp_qseq>
+							<Hsp_hseq>KMESCCVAQVGVQWLDLSSLQPPPPRFKQFSCLSL</Hsp_hseq>
+							<Hsp_midline>+ ESCCV Q GVQW DLSSLQP P FKQFSCLSL</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>44</Hit_num>
+					<Hit_id>gb|KAL0600289.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_030166 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0600289</Hit_accession>
+					<Hit_len>159</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>77.7962</Hsp_bit-score>
+							<Hsp_score>190</Hsp_score>
+							<Hsp_evalue>2.32958e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>18</Hsp_hit-from>
+							<Hsp_hit-to>63</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>EMESCSVTQAGVQWHDLVSLQPLPPGFKQIFCLSLLSSWDYRHVPP</Hsp_hseq>
+							<Hsp_midline>E ESC VTQAGVQW DL SLQPL PGFKQ CLSLLSSWDYR VPP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>45</Hit_num>
+					<Hit_id>gb|KAL0594847.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_035035 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0594847</Hit_accession>
+					<Hit_len>234</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>2.38345e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>198</Hsp_query-to>
+							<Hsp_hit-from>43</Hsp_hit-from>
+							<Hsp_hit-to>109</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>43</Hsp_identity>
+							<Hsp_positive>47</Hsp_positive>
+							<Hsp_gaps>1</Hsp_gaps>
+							<Hsp_align-len>67</Hsp_align-len>
+							<Hsp_qseq>LPCPLTPHN-HXXXXXXFETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>LPTPHVPHHRHLMPTPSDTMESQSVTQAGVQWRYLSSLQPLPPGVKQFSCLSLLSSWDHRHLPPCLA</Hsp_hseq>
+							<Hsp_midline>LP P PH+ H ES VTQAGVQW LSSLQPL PG KQFSCLSLLSSWD+R +PPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>46</Hit_num>
+					<Hit_id>ref|XP_070955548.1|</Hit_id>
+					<Hit_def>putative uncharacterized protein encoded by LINC00596 [Macaca nemestrina]</Hit_def>
+					<Hit_accession>XP_070955548</Hit_accession>
+					<Hit_len>131</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>77.0258</Hsp_bit-score>
+							<Hsp_score>188</Hsp_score>
+							<Hsp_evalue>2.41721e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>62</Hsp_hit-from>
+							<Hsp_hit-to>102</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>41</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>VTQAGVQWRNLGSLQPLPPGFEQFSCLSLLSSWDYRRVPPC</Hsp_hseq>
+							<Hsp_midline>VTQAGVQW +L SLQPL PGF+QFSCLSLLSSWDYRRVPPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>47</Hit_num>
+					<Hit_id>gb|KAL4827710.1|</Hit_id>
+					<Hit_def>hypothetical protein H8958_003465, partial [Nasalis larvatus]</Hit_def>
+					<Hit_accession>KAL4827710</Hit_accession>
+					<Hit_len>73</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>75.0998</Hsp_bit-score>
+							<Hsp_score>183</Hsp_score>
+							<Hsp_evalue>3.35551e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>2</Hsp_hit-from>
+							<Hsp_hit-to>48</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>37</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>ETESRSVAQAGVQWHDLGSLQPPPPGFKQFSCFSLLSSWDYRHAPPC</Hsp_hseq>
+							<Hsp_midline>ETES V QAGVQW DL SLQP PGFKQFSC SLLSSWDYR PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>48</Hit_num>
+					<Hit_id>gb|KAL0619342.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_012023 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0619342</Hit_accession>
+					<Hit_len>538</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.8777</Hsp_bit-score>
+							<Hsp_score>198</Hsp_score>
+							<Hsp_evalue>4.02638e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>216</Hsp_query-to>
+							<Hsp_hit-from>200</Hsp_hit-from>
+							<Hsp_hit-to>267</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>42</Hsp_identity>
+							<Hsp_positive>46</Hsp_positive>
+							<Hsp_gaps>4</Hsp_gaps>
+							<Hsp_align-len>72</Hsp_align-len>
+							<Hsp_qseq>CSTRPSLPCPLTPHNHXXXXXXFETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>CEREPQAQCPFSPGPFFLQV----EKSCSVAQAGVQWCDLSSLQPLPPGFKQFFCLSLPRSWDYRHMPPCLA</Hsp_hseq>
+							<Hsp_midline>C P CP +P +SC V QAGVQWCDLSSLQPL PGFKQF CLSL SWDYR +PPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>53.9138</Hsp_bit-score>
+							<Hsp_score>128</Hsp_score>
+							<Hsp_evalue>1.21929e-05</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>123</Hsp_query-to>
+							<Hsp_hit-from>460</Hsp_hit-from>
+							<Hsp_hit-to>497</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>26</Hsp_identity>
+							<Hsp_positive>28</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>38</Hsp_align-len>
+							<Hsp_qseq>QAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>QAGAQWHNLGSLQPPPPGLKRFFHLSFLSSWDQRRVPP</Hsp_hseq>
+							<Hsp_midline>QAG QW +L SLQP PG K+F LS LSSWD RRVPP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>49</Hit_num>
+					<Hit_id>gb|KAL0616383.1|</Hit_id>
+					<Hit_def>Protein GVQW1 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0616383</Hit_accession>
+					<Hit_len>318</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>4.17106e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>137</Hsp_hit-from>
+							<Hsp_hit-to>184</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>TESCSVTQAGTQWCDLGLLQSLPPGFKRFSCLSLLSSWDYRCAPPCLA</Hsp_hseq>
+							<Hsp_midline>TESC VTQAG QWCDL LQ L PGFK+FSCLSLLSSWDYR PPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>50</Hit_num>
+					<Hit_id>gb|KAL0593743.1|</Hit_id>
+					<Hit_def>Palladin, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0593743</Hit_accession>
+					<Hit_len>314</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>4.26963e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>135</Hsp_hit-from>
+							<Hsp_hit-to>181</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>QMESCFVTQAGVQWHDLSSLQPPPPGFKQFSCLSLLSSWDYRLVQPC</Hsp_hseq>
+							<Hsp_midline>+ ESC VTQAGVQW DLSSLQP PGFKQFSCLSLLSSWDYR V PC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>51</Hit_num>
+					<Hit_id>gb|KAL0605929.1|</Hit_id>
+					<Hit_def>LOW QUALITY PROTEIN: FSD1-like protein, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0605929</Hit_accession>
+					<Hit_len>951</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.8777</Hsp_bit-score>
+							<Hsp_score>198</Hsp_score>
+							<Hsp_evalue>4.63206e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>219</Hsp_hit-from>
+							<Hsp_hit-to>267</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>43</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>KTKSCPVTQTAVQWCDLSSLQPLPPGFKRFSCLSLLSSWDYKRTPPHLA</Hsp_hseq>
+							<Hsp_midline>+T+SC VTQ VQWCDLSSLQPL PGFK+FSCLSLLSSWDY+R PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>52</Hit_num>
+					<Hit_id>gb|KAL0597840.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_033192 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0597840</Hit_accession>
+					<Hit_len>1203</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.8777</Hsp_bit-score>
+							<Hsp_score>198</Hsp_score>
+							<Hsp_evalue>4.68676e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>1091</Hsp_hit-from>
+							<Hsp_hit-to>1138</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>42</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>TESHSVTQAGVQWHDLSSLQPPHPGFKRFSCLSLLSSWDYRSMPPCLA</Hsp_hseq>
+							<Hsp_midline>TES VTQAGVQW DLSSLQP PGFK+FSCLSLLSSWDYR +PPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>65.0846</Hsp_bit-score>
+							<Hsp_score>157</Hsp_score>
+							<Hsp_evalue>1.44846e-09</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>129</Hsp_hit-from>
+							<Hsp_hit-to>175</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>33</Hsp_identity>
+							<Hsp_positive>37</Hsp_positive>
+							<Hsp_gaps>1</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQA-GVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>KYKSRSVAQAAGVQWHDLSSLQPPPPGFKRFSCLSLLNSWDYRHAPP</Hsp_hseq>
+							<Hsp_midline>+ +S V QA GVQW DLSSLQP PGFK+FSCLSLL+SWDYR PP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>53.1434</Hsp_bit-score>
+							<Hsp_score>126</Hsp_score>
+							<Hsp_evalue>2.40577e-05</Hsp_evalue>
+							<Hsp_query-from>22</Hsp_query-from>
+							<Hsp_query-to>117</Hsp_query-to>
+							<Hsp_hit-from>501</Hsp_hit-from>
+							<Hsp_hit-to>532</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>26</Hsp_identity>
+							<Hsp_positive>27</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>32</Hsp_align-len>
+							<Hsp_qseq>GVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYR</Hsp_qseq>
+							<Hsp_hseq>GVQWRKLSSSQPLPPGFKQFSYLSLLSSYDYR</Hsp_hseq>
+							<Hsp_midline>GVQW LSS QPL PGFKQFS LSLLSS+DYR</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>4</Hsp_num>
+							<Hsp_bit-score>51.9878</Hsp_bit-score>
+							<Hsp_score>123</Hsp_score>
+							<Hsp_evalue>6.81195e-05</Hsp_evalue>
+							<Hsp_query-from>25</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>356</Hsp_hit-from>
+							<Hsp_hit-to>395</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>28</Hsp_identity>
+							<Hsp_positive>30</Hsp_positive>
+							<Hsp_gaps>1</Hsp_gaps>
+							<Hsp_align-len>40</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSL-LSSWDY</Hsp_qseq>
+							<Hsp_hseq>KSHSVAQVGVQWCDLSSLQSPTPEFKQFSCLSLPISMKDY</Hsp_hseq>
+							<Hsp_midline>+S V Q GVQWCDLSSLQ TP FKQFSCLSL +S DY</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>5</Hsp_num>
+							<Hsp_bit-score>37.3502</Hsp_bit-score>
+							<Hsp_score>85</Hsp_score>
+							<Hsp_evalue>0.00902214</Hsp_evalue>
+							<Hsp_query-from>65</Hsp_query-from>
+							<Hsp_query-to>151</Hsp_query-to>
+							<Hsp_hit-from>667</Hsp_hit-from>
+							<Hsp_hit-to>695</Hsp_hit-to>
+							<Hsp_query-frame>2</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>18</Hsp_identity>
+							<Hsp_positive>22</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>29</Hsp_align-len>
+							<Hsp_qseq>LNPGVRGCSELRSHHCTPAWVTQQDSVSK</Hsp_qseq>
+							<Hsp_hseq>LEPRGRGCSKPRSHHCTLARATEQNSVSR</Hsp_hseq>
+							<Hsp_midline>L P RGCS+ RSHHCT A T+Q+SVS+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>6</Hsp_num>
+							<Hsp_bit-score>30.8018</Hsp_bit-score>
+							<Hsp_score>68</Hsp_score>
+							<Hsp_evalue>0.00902214</Hsp_evalue>
+							<Hsp_query-from>25</Hsp_query-from>
+							<Hsp_query-to>72</Hsp_query-to>
+							<Hsp_hit-from>654</Hsp_hit-from>
+							<Hsp_hit-to>669</Hsp_hit-to>
+							<Hsp_query-frame>1</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>15</Hsp_identity>
+							<Hsp_positive>15</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>16</Hsp_align-len>
+							<Hsp_qseq>VVPATQEAEAGELLEP</Hsp_qseq>
+							<Hsp_hseq>VVPATQEAEAGESLEP</Hsp_hseq>
+							<Hsp_midline>VVPATQEAEAGE LEP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>7</Hsp_num>
+							<Hsp_bit-score>45.4394</Hsp_bit-score>
+							<Hsp_score>106</Hsp_score>
+							<Hsp_evalue>0.0119118</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>135</Hsp_query-to>
+							<Hsp_hit-from>536</Hsp_hit-from>
+							<Hsp_hit-to>571</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>24</Hsp_identity>
+							<Hsp_positive>27</Hsp_positive>
+							<Hsp_gaps>9</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>CCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ALVAQAGVQWLNLSSLQPPPPRF---------NSWHYRHVPPCLA</Hsp_hseq>
+							<Hsp_midline> V QAGVQW +LSSLQP P F +SW YR VPPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>53</Hit_num>
+					<Hit_id>gb|EAW62946.1|</Hit_id>
+					<Hit_def>hCG2038800, partial [Homo sapiens]</Hit_def>
+					<Hit_accession>EAW62946</Hit_accession>
+					<Hit_len>117</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>75.8702</Hsp_bit-score>
+							<Hsp_score>185</Hsp_score>
+							<Hsp_evalue>5.03445e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>31</Hsp_hit-from>
+							<Hsp_hit-to>76</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ETESRCVAQAGVQWRHLSSLQPLPPGFKQFSFLSLLSSWDYRHVLP</Hsp_hseq>
+							<Hsp_midline>ETES CV QAGVQW LSSLQPL PGFKQFS LSLLSSWDYR V P</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>54</Hit_num>
+					<Hit_id>gb|KAI2566705.1|</Hit_id>
+					<Hit_def>Ts translation elongation factor, mitochondrial [Homo sapiens]</Hit_def>
+					<Hit_accession>KAI2566705</Hit_accession>
+					<Hit_len>137</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>76.2554</Hsp_bit-score>
+							<Hsp_score>186</Hsp_score>
+							<Hsp_evalue>5.36022e-15</Hsp_evalue>
+							<Hsp_query-from>13</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>77</Hsp_hit-from>
+							<Hsp_hit-to>121</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>35</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVP</Hsp_qseq>
+							<Hsp_hseq>QTESCSVAQAGVQWHDVGSLQPPPPGFKRFSCLSLLSSWDYRRAP</Hsp_hseq>
+							<Hsp_midline>+TESC V QAGVQW D+ SLQP PGFK+FSCLSLLSSWDYRR P</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>55</Hit_num>
+					<Hit_id>gb|KAL0595157.1|</Hit_id>
+					<Hit_def>LOW QUALITY PROTEIN: hypothetical protein AAY473_035347 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0595157</Hit_accession>
+					<Hit_len>661</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.4925</Hsp_bit-score>
+							<Hsp_score>197</Hsp_score>
+							<Hsp_evalue>5.59428e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>209</Hsp_hit-from>
+							<Hsp_hit-to>257</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>43</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>QTECCFITQAGVQWCNLSSLQPLPPGFKQYSCLSLPSSWNYRHAPPCLA</Hsp_hseq>
+							<Hsp_midline>+TE C +TQAGVQWC+LSSLQPL PGFKQ+SCLSL SSW+YR PPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>56.6102</Hsp_bit-score>
+							<Hsp_score>135</Hsp_score>
+							<Hsp_evalue>1.49147e-06</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>114</Hsp_query-to>
+							<Hsp_hit-from>384</Hsp_hit-from>
+							<Hsp_hit-to>421</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>27</Hsp_identity>
+							<Hsp_positive>31</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>38</Hsp_align-len>
+							<Hsp_qseq>VQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>VQWHNHSSLQPQTPRLKQFFYLSLLNSWDYRQVPPCLA</Hsp_hseq>
+							<Hsp_midline>VQW + SSLQP TP KQF LSLL+SWDYR+VPPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>56</Hit_num>
+					<Hit_id>gb|KAL0628257.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_001577 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0628257</Hit_accession>
+					<Hit_len>270</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>78.9518</Hsp_bit-score>
+							<Hsp_score>193</Hsp_score>
+							<Hsp_evalue>5.86099e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>112</Hsp_hit-from>
+							<Hsp_hit-to>160</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ETESCSVAQAGVQWRDLSSLQPLPPRFKRFSCLSLPSSWDYRRTPPYLA</Hsp_hseq>
+							<Hsp_midline>ETESC V QAGVQW DLSSLQPL P FK+FSCLSL SSWDYRR PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>57</Hit_num>
+					<Hit_id>gb|KAL0593212.1|</Hit_id>
+					<Hit_def>LOW QUALITY PROTEIN: Raftlin, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0593212</Hit_accession>
+					<Hit_len>685</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.4925</Hsp_bit-score>
+							<Hsp_score>197</Hsp_score>
+							<Hsp_evalue>5.8903e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>614</Hsp_hit-from>
+							<Hsp_hit-to>662</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>42</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>KSESCSVTQAGMQWRDLSSLQPPPPGFKQFSCLSLLRGWDYRHVPPCLA</Hsp_hseq>
+							<Hsp_midline>++ESC VTQAG+QW DLSSLQP PGFKQFSCLSLL WDYR VPPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>47.3654</Hsp_bit-score>
+							<Hsp_score>111</Hsp_score>
+							<Hsp_evalue>0.00224725</Hsp_evalue>
+							<Hsp_query-from>19</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>142</Hsp_hit-from>
+							<Hsp_hit-to>179</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>27</Hsp_identity>
+							<Hsp_positive>28</Hsp_positive>
+							<Hsp_gaps>1</Hsp_gaps>
+							<Hsp_align-len>38</Hsp_align-len>
+							<Hsp_qseq>VTQAG-VQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRR</Hsp_qseq>
+							<Hsp_hseq>VTQAGGVQRHDLGSLQLLPPGLKRFSCLLRLSSWDYSR</Hsp_hseq>
+							<Hsp_midline>VTQAG VQ DL SLQ L PG K+FSCL LSSWDY R</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>44.669</Hsp_bit-score>
+							<Hsp_score>104</Hsp_score>
+							<Hsp_evalue>0.0220824</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>455</Hsp_hit-from>
+							<Hsp_hit-to>497</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>27</Hsp_identity>
+							<Hsp_positive>28</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>43</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>VTQAGAQWHDLSSLQPSPPRLKLSSHCSLPSSCDYRHTPPHLA</Hsp_hseq>
+							<Hsp_midline>VTQAG QW DLSSLQP P K S SL SS DYR PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>58</Hit_num>
+					<Hit_id>gb|KAL0607689.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_024294 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0607689</Hit_accession>
+					<Hit_len>341</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>6.34477e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>136</Hsp_hit-from>
+							<Hsp_hit-to>182</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>DSCSASQARVQWHDLGSLQPLPPGFKRFSCLSLLSSWDYRRVPPCLA</Hsp_hseq>
+							<Hsp_midline>+SC +QA VQW DL SLQPL PGFK+FSCLSLLSSWDYRRVPPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>48.9062</Hsp_bit-score>
+							<Hsp_score>115</Hsp_score>
+							<Hsp_evalue>0.00071909</Hsp_evalue>
+							<Hsp_query-from>13</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>221</Hsp_hit-from>
+							<Hsp_hit-to>265</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>27</Hsp_identity>
+							<Hsp_positive>29</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVP</Hsp_qseq>
+							<Hsp_hseq>QTECLPITQAGVQWCSHSSPQPQNPRHKPPSHLSFLSSWDYRLKP</Hsp_hseq>
+							<Hsp_midline>+TE +TQAGVQWC SS QP P K S LS LSSWDYR P</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>59</Hit_num>
+					<Hit_id>gb|KAL0614401.1|</Hit_id>
+					<Hit_def>Amyloid-beta A4 protein [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0614401</Hit_accession>
+					<Hit_len>425</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>6.60061e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>100</Hsp_hit-from>
+							<Hsp_hit-to>148</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>43</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>EVESCLVTQAGMQWCNLSSLQPPPPVFKQFSCLNLPNNWDYRRMPPCLA</Hsp_hseq>
+							<Hsp_midline>E ESC VTQAG+QWC+LSSLQP P FKQFSCL+L ++WDYRR+PPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>60</Hit_num>
+					<Hit_id>gb|EHH18952.1|</Hit_id>
+					<Hit_def>hypothetical protein EGK_19543, partial [Macaca mulatta]</Hit_def>
+					<Hit_accession>EHH18952</Hit_accession>
+					<Hit_len>73</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>74.3294</Hsp_bit-score>
+							<Hsp_score>181</Hsp_score>
+							<Hsp_evalue>6.60166e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>2</Hsp_hit-from>
+							<Hsp_hit-to>47</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ETESHSVTQAGVQWHDLGSLQPPPPRFKQFSCLSLLSSWDYRHVPP</Hsp_hseq>
+							<Hsp_midline>ETES VTQAGVQW DL SLQP P FKQFSCLSLLSSWDYR VPP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>61</Hit_num>
+					<Hit_id>ref|XP_054959136.1|</Hit_id>
+					<Hit_def>acyl-coenzyme A diphosphatase NUDT19 isoform X2 [Pan paniscus]</Hit_def>
+					<Hit_accession>XP_054959136</Hit_accession>
+					<Hit_len>358</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>6.72344e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>238</Hsp_hit-from>
+							<Hsp_hit-to>284</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>QTESCSATQAGVQWHDLGSLQPLPPRFKQFSCLSLLSSWDYRHMPPC</Hsp_hseq>
+							<Hsp_midline>+TESC TQAGVQW DL SLQPL P FKQFSCLSLLSSWDYR +PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>62</Hit_num>
+					<Hit_id>gb|KAL0608551.1|</Hit_id>
+					<Hit_def>40S ribosomal protein S2 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0608551</Hit_accession>
+					<Hit_len>559</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.4925</Hsp_bit-score>
+							<Hsp_score>197</Hsp_score>
+							<Hsp_evalue>6.93169e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>369</Hsp_hit-from>
+							<Hsp_hit-to>409</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>41</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>VAQAGVQWCDLSSLQPLPPGFKQFSCLSLLNSWDYRPVPPC</Hsp_hseq>
+							<Hsp_midline>V QAGVQWCDLSSLQPL PGFKQFSCLSLL+SWDYR VPPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>63</Hit_num>
+					<Hit_id>gb|KAL0612228.1|</Hit_id>
+					<Hit_def>Fibrillin-3, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0612228</Hit_accession>
+					<Hit_len>1612</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.4925</Hsp_bit-score>
+							<Hsp_score>197</Hsp_score>
+							<Hsp_evalue>7.05996e-15</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>927</Hsp_hit-from>
+							<Hsp_hit-to>972</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>QTESCSVTQAGVQWCDLGSLQPLPPGFKRFSCLCLSSSWDYRGVPP</Hsp_hseq>
+							<Hsp_midline>+TESC VTQAGVQWCDL SLQPL PGFK+FSCL L SSWDYR VPP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>67.3958</Hsp_bit-score>
+							<Hsp_score>163</Hsp_score>
+							<Hsp_evalue>2.56861e-10</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>1313</Hsp_hit-from>
+							<Hsp_hit-to>1356</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>33</Hsp_identity>
+							<Hsp_positive>34</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>44</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ESCSVIQAGVQGCDLSLFQPLPPEFKQFSCLSLPNSWDYRHAPP</Hsp_hseq>
+							<Hsp_midline>ESC V QAGVQ CDLS QPL P FKQFSCLSL +SWDYR PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>64</Hit_num>
+					<Hit_id>gb|KAL0629988.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_003317 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0629988</Hit_accession>
+					<Hit_len>436</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>7.28146e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>127</Hsp_hit-from>
+							<Hsp_hit-to>174</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>TESCSVAQAGVQWHNLGSLQPLPPGFKPFSCLSLLSSWDYRRAPPRLA</Hsp_hseq>
+							<Hsp_midline>TESC V QAGVQW +L SLQPL PGFK FSCLSLLSSWDYRR PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>65</Hit_num>
+					<Hit_id>gb|AIC59745.1|</Hit_id>
+					<Hit_def>CHP, partial [synthetic construct]</Hit_def>
+					<Hit_accession>AIC59745</Hit_accession>
+					<Hit_len>66</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>73.9442</Hsp_bit-score>
+							<Hsp_score>180</Hsp_score>
+							<Hsp_evalue>7.57122e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>2</Hsp_hit-from>
+							<Hsp_hit-to>48</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ESHSVTQAGVQWRDLGSLQPLPPGFKQFSHLSLPSSWDYRRVPPYLG</Hsp_hseq>
+							<Hsp_midline>ES VTQAGVQW DL SLQPL PGFKQFS LSL SSWDYRRVPP L </Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>66</Hit_num>
+					<Hit_id>gb|KAL0596491.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_034441 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0596491</Hit_accession>
+					<Hit_len>428</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>7.95282e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>289</Hsp_hit-from>
+							<Hsp_hit-to>335</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>HTESCTVTQAGVQWCDLNSLQHMPPKFKQFSCLSLLSSRDYRRVPSC</Hsp_hseq>
+							<Hsp_midline> TESC VTQAGVQWCDL+SLQ + P FKQFSCLSLLSS DYRRVP C</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>63.1586</Hsp_bit-score>
+							<Hsp_score>152</Hsp_score>
+							<Hsp_evalue>6.02833e-09</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>82</Hsp_hit-from>
+							<Hsp_hit-to>124</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>30</Hsp_identity>
+							<Hsp_positive>33</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>43</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>VVQAGVKWCNLGSRQPLPPGFKPFSYLSLPSSWDYRNTPPHLA</Hsp_hseq>
+							<Hsp_midline>V QAGV+WC+L S QPL PGFK FS LSL SSWDYR PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>67</Hit_num>
+					<Hit_id>gb|KAL0621245.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0621245</Hit_accession>
+					<Hit_len>499</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>8.00846e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>303</Hsp_hit-from>
+							<Hsp_hit-to>345</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>43</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>VAQAGVQWCDLGSLQPLPPGFKQFSCLSLLSSWDYRHVPPHLA</Hsp_hseq>
+							<Hsp_midline>V QAGVQWCDL SLQPL PGFKQFSCLSLLSSWDYR VPP L+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>46.2098</Hsp_bit-score>
+							<Hsp_score>108</Hsp_score>
+							<Hsp_evalue>0.00570781</Hsp_evalue>
+							<Hsp_query-from>43</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>402</Hsp_hit-from>
+							<Hsp_hit-to>434</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>23</Hsp_identity>
+							<Hsp_positive>25</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>33</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSL</Hsp_qseq>
+							<Hsp_hseq>ESCPVAQAGVQYYSLSSLQPPPPGYKQFSCFRL</Hsp_hseq>
+							<Hsp_midline>ESC V QAGVQ+ LSSLQP PG+KQFSC L</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>68</Hit_num>
+					<Hit_id>gb|EHH21360.1|</Hit_id>
+					<Hit_def>hypothetical protein EGK_04398, partial [Macaca mulatta]</Hit_def>
+					<Hit_accession>EHH21360</Hit_accession>
+					<Hit_len>95</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>74.7146</Hsp_bit-score>
+							<Hsp_score>182</Hsp_score>
+							<Hsp_evalue>8.46144e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>7</Hsp_hit-from>
+							<Hsp_hit-to>53</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>ETESHSVSQAGVQWCNLGLLQPLPPGFKRFSCLSLLSSQDYRHAPPC</Hsp_hseq>
+							<Hsp_midline>ETES V+QAGVQWC+L LQPL PGFK+FSCLSLLSS DYR PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>69</Hit_num>
+					<Hit_id>gb|KAL0606458.1|</Hit_id>
+					<Hit_def>Zinc finger FYVE domain-containing protein 16 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0606458</Hit_accession>
+					<Hit_len>517</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>8.76957e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>177</Hsp_hit-from>
+							<Hsp_hit-to>225</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ETESCSTTQAGVQWHNLSSLQPLPPGFKQFSCLSLLSGWGYRHAPPHLT</Hsp_hseq>
+							<Hsp_midline>ETESC TQAGVQW +LSSLQPL PGFKQFSCLSLLS W YR PP L+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>43.8986</Hsp_bit-score>
+							<Hsp_score>102</Hsp_score>
+							<Hsp_evalue>0.0360008</Hsp_evalue>
+							<Hsp_query-from>6</Hsp_query-from>
+							<Hsp_query-to>146</Hsp_query-to>
+							<Hsp_hit-from>411</Hsp_hit-from>
+							<Hsp_hit-to>457</Hsp_hit-to>
+							<Hsp_query-frame>-1</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>33</Hsp_identity>
+							<Hsp_positive>36</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>RRSLAVSPRLECSGVISAHCXXXXXXXXXXXXXXX*VAGTTGVCHHA</Hsp_qseq>
+							<Hsp_hseq>RESLALWPRLECRGVISAHCNLHLTGLSHSGASASRIAGITGAPHHA</Hsp_hseq>
+							<Hsp_midline>R SLA+ PRLEC GVISAHCNL L G S+S ASAS +AG TG HHA</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>70</Hit_num>
+					<Hit_id>gb|KAL0602259.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_028457 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0602259</Hit_accession>
+					<Hit_len>637</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>8.97846e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>14</Hsp_hit-from>
+							<Hsp_hit-to>60</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>EMESCSIAQAGVQWYDLSSLQPLSPGFKQFPCLSLPSSWDYKRPPPC</Hsp_hseq>
+							<Hsp_midline>E ESC + QAGVQW DLSSLQPL+PGFKQF CLSL SSWDY+R PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>71</Hit_num>
+					<Hit_id>gb|KAL0598857.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0598857</Hit_accession>
+					<Hit_len>233</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>77.7962</Hsp_bit-score>
+							<Hsp_score>190</Hsp_score>
+							<Hsp_evalue>9.24579e-15</Hsp_evalue>
+							<Hsp_query-from>4</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>31</Hsp_hit-from>
+							<Hsp_hit-to>78</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCL</Hsp_qseq>
+							<Hsp_hseq>DTESHSFAQAGVQWCSLSSLQPLPPGFKRFSCLSLPSSWDYRRLPPYL</Hsp_hseq>
+							<Hsp_midline>+TES QAGVQWC LSSLQPL PGFK+FSCLSL SSWDYRR+PP L</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>72</Hit_num>
+					<Hit_id>gb|KAL0604152.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_026150 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0604152</Hit_accession>
+					<Hit_len>1311</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>9.28936e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>324</Hsp_hit-from>
+							<Hsp_hit-to>372</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>EMESHSVTQAGVQWCDLGSLQPPHPGFKKFSCSSLLSSWDYRHTPPCLA</Hsp_hseq>
+							<Hsp_midline>E ES VTQAGVQWCDL SLQP PGFK+FSC SLLSSWDYR PPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>63.1586</Hsp_bit-score>
+							<Hsp_score>152</Hsp_score>
+							<Hsp_evalue>6.69452e-09</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>633</Hsp_hit-from>
+							<Hsp_hit-to>681</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>32</Hsp_identity>
+							<Hsp_positive>35</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>EMESHSVTHAGVHWHDLGSPQPVPTRFKQFSCLSLLSSWDYRYIPLFLA</Hsp_hseq>
+							<Hsp_midline>E ES VT AGV W DL S QP+ FKQFSCLSLLSSWDYR +P L+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>61.6178</Hsp_bit-score>
+							<Hsp_score>148</Hsp_score>
+							<Hsp_evalue>2.96527e-08</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>154</Hsp_hit-from>
+							<Hsp_hit-to>202</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>31</Hsp_identity>
+							<Hsp_positive>34</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>KIETILANMAGVQWHDLGSLQPSPLGFKQFSCLSLSSSWDYRCAPPPLA</Hsp_hseq>
+							<Hsp_midline>+ E+ AGVQW DL SLQP GFKQFSCLSL SSWDYR PP L+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>4</Hsp_num>
+							<Hsp_bit-score>56.225</Hsp_bit-score>
+							<Hsp_score>134</Hsp_score>
+							<Hsp_evalue>1.98208e-06</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>123</Hsp_query-to>
+							<Hsp_hit-from>14</Hsp_hit-from>
+							<Hsp_hit-to>54</Hsp_hit-to>
+							<Hsp_query-frame>1</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>28</Hsp_identity>
+							<Hsp_positive>31</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>41</Hsp_align-len>
+							<Hsp_qseq>TQAWWHTPVVPATQEAEAGELLEPGSQRLQ*AEITPLHSSL</Hsp_qseq>
+							<Hsp_hseq>SHAWWHTPVILAIQEAEAGESPEPRKQRLQWAETAPLHSSI</Hsp_hseq>
+							<Hsp_midline>+ AWWHTPV+ A QEAEAGE EP QRLQ AE PLHSS+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>73</Hit_num>
+					<Hit_id>gb|KAL0605244.1|</Hit_id>
+					<Hit_def>Disintegrin and metalloproteinase domain-containing protein 19 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0605244</Hit_accession>
+					<Hit_len>886</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>9.47092e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>12</Hsp_hit-from>
+							<Hsp_hit-to>58</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>EKKSHSVTQAGVQWCDLISLQPLCPGFKQFSCLSLLSSWDYRCLPPC</Hsp_hseq>
+							<Hsp_midline>E +S VTQAGVQWCDL SLQPL PGFKQFSCLSLLSSWDYR +PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>74</Hit_num>
+					<Hit_id>gb|KAL0605175.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0605175</Hit_accession>
+					<Hit_len>211</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>77.411</Hsp_bit-score>
+							<Hsp_score>189</Hsp_score>
+							<Hsp_evalue>9.59629e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>32</Hsp_hit-from>
+							<Hsp_hit-to>79</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>TECCSVALAGVQWRNLGSLQPLSPGFKRFSCLSLLSSWDYRQVPPSLN</Hsp_hseq>
+							<Hsp_midline>TE C V AGVQW +L SLQPL+PGFK+FSCLSLLSSWDYR+VPP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>75</Hit_num>
+					<Hit_id>gb|KAL0621332.1|</Hit_id>
+					<Hit_def>LINE-1 retrotransposable element ORF1 protein [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0621332</Hit_accession>
+					<Hit_len>706</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>80.1073</Hsp_bit-score>
+							<Hsp_score>196</Hsp_score>
+							<Hsp_evalue>9.59989e-15</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>375</Hsp_hit-from>
+							<Hsp_hit-to>421</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>EAESCSVAQAGVQWHDLSSLQPLPPGFKRFSCLSLLSSWDYKCAPPC</Hsp_hseq>
+							<Hsp_midline>E ESC V QAGVQW DLSSLQPL PGFK+FSCLSLLSSWDY+ PPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>63.929</Hsp_bit-score>
+							<Hsp_score>154</Hsp_score>
+							<Hsp_evalue>3.49998e-09</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>135</Hsp_query-to>
+							<Hsp_hit-from>148</Hsp_hit-from>
+							<Hsp_hit-to>191</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>32</Hsp_identity>
+							<Hsp_positive>35</Hsp_positive>
+							<Hsp_gaps>1</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>CCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>AVVAQSGVQWHNLGSLQPPPPGFKQF-CPSLLSSWDYRHVPPCLA</Hsp_hseq>
+							<Hsp_midline> V Q+GVQW +L SLQP PGFKQF C SLLSSWDYR VPPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>50.0618</Hsp_bit-score>
+							<Hsp_score>118</Hsp_score>
+							<Hsp_evalue>0.000331585</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>528</Hsp_hit-from>
+							<Hsp_hit-to>571</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>28</Hsp_identity>
+							<Hsp_positive>30</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>44</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ESRSVAQTEVQRHSLSSLQLLPPEFKQFSCLSVPSSWDNRHLPP</Hsp_hseq>
+							<Hsp_midline>ES V Q VQ LSSLQ L P FKQFSCLS+ SSWD R +PP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>4</Hsp_num>
+							<Hsp_bit-score>46.9802</Hsp_bit-score>
+							<Hsp_score>110</Hsp_score>
+							<Hsp_evalue>0.00319699</Hsp_evalue>
+							<Hsp_query-from>43</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>472</Hsp_hit-from>
+							<Hsp_hit-to>500</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>23</Hsp_identity>
+							<Hsp_positive>25</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>29</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSL</Hsp_qseq>
+							<Hsp_hseq>VTQAGVQQCNLGSLQPPPPGFKRFSCLSL</Hsp_hseq>
+							<Hsp_midline>VTQAGVQ C+L SLQP PGFK+FSCLSL</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>76</Hit_num>
+					<Hit_id>gb|TXC25445.1|</Hit_id>
+					<Hit_def>hypothetical protein DP141_26765, partial [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+					<Hit_accession>TXC25445</Hit_accession>
+					<Hit_len>151</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>75.8702</Hsp_bit-score>
+							<Hsp_score>185</Hsp_score>
+							<Hsp_evalue>9.77314e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>15</Hsp_hit-from>
+							<Hsp_hit-to>63</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>EMESCSVTQAGMQWHDLSSLQPSPPGFRRISCLSLLSSWDYRHLPPYLA</Hsp_hseq>
+							<Hsp_midline>E ESC VTQAG+QW DLSSLQP PGF++ SCLSLLSSWDYR +PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>77</Hit_num>
+					<Hit_id>gb|KAL0621136.1|</Hit_id>
+					<Hit_def>S1 RNA-binding domain-containing protein 1, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0621136</Hit_accession>
+					<Hit_len>447</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>9.9266e-15</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>14</Hsp_hit-from>
+							<Hsp_hit-to>61</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>42</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>SQSCFVALAGVQWCNLSSLQPLPPGFKRFSCLSLSSSWDYRHLPPCLA</Hsp_hseq>
+							<Hsp_midline>++SC V AGVQWC+LSSLQPL PGFK+FSCLSL SSWDYR +PPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>78</Hit_num>
+					<Hit_id>gb|KAL0615013.1|</Hit_id>
+					<Hit_def>LOW QUALITY PROTEIN: UPF0764 protein C16orf89, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0615013</Hit_accession>
+					<Hit_len>326</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>78.9518</Hsp_bit-score>
+							<Hsp_score>193</Hsp_score>
+							<Hsp_evalue>1.00518e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>162</Hsp_hit-from>
+							<Hsp_hit-to>209</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>TESCSVSQAGVQWSDLSSLQTPPPGFKQFFCLSLLSSWDYRRVPPHLA</Hsp_hseq>
+							<Hsp_midline>TESC V+QAGVQW DLSSLQ PGFKQF CLSLLSSWDYRRVPP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>79</Hit_num>
+					<Hit_id>gb|KAL0610631.1|</Hit_id>
+					<Hit_def>LOW QUALITY PROTEIN: Protein GVQW1 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0610631</Hit_accession>
+					<Hit_len>440</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>1.00757e-14</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>225</Hsp_hit-from>
+							<Hsp_hit-to>269</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>TKSHCVTQAGVRWCDLSSLQPLPSGFKQFSCLSLPSSWDYRRTPP</Hsp_hseq>
+							<Hsp_midline>T+S CVTQAGV+WCDLSSLQPL GFKQFSCLSL SSWDYRR PP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>66.6254</Hsp_bit-score>
+							<Hsp_score>161</Hsp_score>
+							<Hsp_evalue>4.54034e-10</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>348</Hsp_hit-from>
+							<Hsp_hit-to>387</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>32</Hsp_identity>
+							<Hsp_positive>33</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>40</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>VAQDGVQWLDLSSLQPPPPGFKRFSCLSLPSSWDYRHVPP</Hsp_hseq>
+							<Hsp_midline>V Q GVQW DLSSLQP PGFK+FSCLSL SSWDYR VPP</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>53.5286</Hsp_bit-score>
+							<Hsp_score>127</Hsp_score>
+							<Hsp_evalue>1.79099e-05</Hsp_evalue>
+							<Hsp_query-from>25</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>141</Hsp_hit-from>
+							<Hsp_hit-to>181</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>28</Hsp_identity>
+							<Hsp_positive>31</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>41</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDY</Hsp_qseq>
+							<Hsp_hseq>KTRSHSVAQAGVQCGNLSSLQPLPPGLKQSSCLHLLSSWDH</Hsp_hseq>
+							<Hsp_midline>+T S V QAGVQ +LSSLQPL PG KQ SCL LLSSWD+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>80</Hit_num>
+					<Hit_id>gb|KAL0600324.1|</Hit_id>
+					<Hit_def>Protein GVQW1 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0600324</Hit_accession>
+					<Hit_len>192</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>76.6406</Hsp_bit-score>
+							<Hsp_score>187</Hsp_score>
+							<Hsp_evalue>1.08345e-14</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>84</Hsp_hit-from>
+							<Hsp_hit-to>129</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>TESCSVAQAGVQWCDLGSLQPPPPGFKQFSYLSLPSSWDYRRPPPC</Hsp_hseq>
+							<Hsp_midline>TESC V QAGVQWCDL SLQP PGFKQFS LSL SSWDYRR PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>81</Hit_num>
+					<Hit_id>gb|KAL0610573.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_020344 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0610573</Hit_accession>
+					<Hit_len>926</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>1.09866e-14</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>120</Hsp_hit-from>
+							<Hsp_hit-to>167</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>2</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVT--QAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>TESCSVARRQAGVQWCDLSSLQPPLPGFKQFSCRSLLSNWDYRRAPPC</Hsp_hseq>
+							<Hsp_midline>TESC V QAGVQWCDLSSLQP PGFKQFSC SLLS+WDYRR PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>82</Hit_num>
+					<Hit_id>gb|KAL0605233.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_021831 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0605233</Hit_accession>
+					<Hit_len>1487</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>1.14477e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>1032</Hsp_hit-from>
+							<Hsp_hit-to>1080</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>42</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>RTKSCSVTQAGVQWHDLGSLQPPSPGFKQFFCLSLLSSWDYRLMPPCLA</Hsp_hseq>
+							<Hsp_midline> T+SC VTQAGVQW DL SLQP +PGFKQF CLSLLSSWDYR +PPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>73.9442</Hsp_bit-score>
+							<Hsp_score>180</Hsp_score>
+							<Hsp_evalue>1.40898e-12</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>659</Hsp_hit-from>
+							<Hsp_hit-to>705</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ESRFVVQDGVQWCDLGSLQPLLPGFKRFSCLSLLSSWDYRHVPSWLT</Hsp_hseq>
+							<Hsp_midline>ES V Q GVQWCDL SLQPL PGFK+FSCLSLLSSWDYR VP L+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>64.6994</Hsp_bit-score>
+							<Hsp_score>156</Hsp_score>
+							<Hsp_evalue>1.89958e-09</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>1343</Hsp_hit-from>
+							<Hsp_hit-to>1389</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>34</Hsp_identity>
+							<Hsp_positive>35</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ESCSVAQARVQWRDLGSLQPPPPRFKRFSCFSLLSSWDYRCPPPCWS</Hsp_hseq>
+							<Hsp_midline>ESC V QA VQW DL SLQP P FK+FSC SLLSSWDYR PPC S</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>4</Hsp_num>
+							<Hsp_bit-score>63.929</Hsp_bit-score>
+							<Hsp_score>154</Hsp_score>
+							<Hsp_evalue>4.09617e-09</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>467</Hsp_hit-from>
+							<Hsp_hit-to>510</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>32</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>1</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>SKPCSVTH-GVQWHDLSSLQPLSSGFKRFSCLSLLSSWDYKRLLP</Hsp_hseq>
+							<Hsp_midline>++ C VT GVQW DLSSLQPL+ GFK+FSCLSLLSSWDY+R+ P</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>5</Hsp_num>
+							<Hsp_bit-score>52.373</Hsp_bit-score>
+							<Hsp_score>124</Hsp_score>
+							<Hsp_evalue>4.22428e-05</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>516</Hsp_hit-from>
+							<Hsp_hit-to>556</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>27</Hsp_identity>
+							<Hsp_positive>30</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>41</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>VAQAGVQWHNLGSLQPPSLSMKRFFCLSLPSSWDYRCPPPC</Hsp_hseq>
+							<Hsp_midline>V QAGVQW +L SLQP + K+F CLSL SSWDYR PPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>6</Hsp_num>
+							<Hsp_bit-score>50.447</Hsp_bit-score>
+							<Hsp_score>119</Hsp_score>
+							<Hsp_evalue>0.00025541</Hsp_evalue>
+							<Hsp_query-from>43</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>1268</Hsp_hit-from>
+							<Hsp_hit-to>1301</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>26</Hsp_identity>
+							<Hsp_positive>27</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>34</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSL</Hsp_qseq>
+							<Hsp_hseq>VESCYVTQTGVQWPDLSSLQPPPPRFEQFSCLSL</Hsp_hseq>
+							<Hsp_midline> ESC VTQ GVQW DLSSLQP P F+QFSCLSL</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>7</Hsp_num>
+							<Hsp_bit-score>41.9726</Hsp_bit-score>
+							<Hsp_score>97</Hsp_score>
+							<Hsp_evalue>0.00237031</Hsp_evalue>
+							<Hsp_query-from>16</Hsp_query-from>
+							<Hsp_query-to>99</Hsp_query-to>
+							<Hsp_hit-from>866</Hsp_hit-from>
+							<Hsp_hit-to>893</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>20</Hsp_identity>
+							<Hsp_positive>25</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>28</Hsp_align-len>
+							<Hsp_qseq>LSSLQPLTPGFKQFSCLSLLSSWDYRRV</Hsp_qseq>
+							<Hsp_hseq>ISTLQPPPPGFKCFSCLSLLSSWDHRQL</Hsp_hseq>
+							<Hsp_midline>+S+LQP PGFK FSCLSLLSSWD+R++</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>8</Hsp_num>
+							<Hsp_bit-score>28.1054</Hsp_bit-score>
+							<Hsp_score>61</Hsp_score>
+							<Hsp_evalue>0.00237031</Hsp_evalue>
+							<Hsp_query-from>93</Hsp_query-from>
+							<Hsp_query-to>146</Hsp_query-to>
+							<Hsp_hit-from>851</Hsp_hit-from>
+							<Hsp_hit-to>868</Hsp_hit-to>
+							<Hsp_query-frame>-1</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>13</Hsp_identity>
+							<Hsp_positive>15</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>18</Hsp_align-len>
+							<Hsp_qseq>RRSLAVSPRLECSGVISA</Hsp_qseq>
+							<Hsp_hseq>RWSLALLPRLKCSGVIST</Hsp_hseq>
+							<Hsp_midline>R SLA+ PRL+CSGVIS </Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>83</Hit_num>
+					<Hit_id>gb|KAL0612646.1|</Hit_id>
+					<Hit_def>putative uncharacterized protein CCDC28A-AS1 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0612646</Hit_accession>
+					<Hit_len>868</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>1.20613e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>347</Hsp_hit-from>
+							<Hsp_hit-to>394</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>TESCSVAQTGVQWCNLGSLQPLPPGFEQFSCLSLPSSWDYRRVPPHLA</Hsp_hseq>
+							<Hsp_midline>TESC V Q GVQWC+L SLQPL PGF+QFSCLSL SSWDYRRVPP L+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>68.5514</Hsp_bit-score>
+							<Hsp_score>166</Hsp_score>
+							<Hsp_evalue>8.81651e-11</Hsp_evalue>
+							<Hsp_query-from>4</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>70</Hsp_hit-from>
+							<Hsp_hit-to>111</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>34</Hsp_identity>
+							<Hsp_positive>35</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>42</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCL</Hsp_qseq>
+							<Hsp_hseq>VTQAGVQWHDLGSLQSLPPGFKQFSCLSLLSSWDYRQSPTLL</Hsp_hseq>
+							<Hsp_midline>VTQAGVQW DL SLQ L PGFKQFSCLSLLSSWDYR+ P L</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>61.2326</Hsp_bit-score>
+							<Hsp_score>147</Hsp_score>
+							<Hsp_evalue>3.07768e-08</Hsp_evalue>
+							<Hsp_query-from>19</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>534</Hsp_hit-from>
+							<Hsp_hit-to>576</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>31</Hsp_identity>
+							<Hsp_positive>33</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>43</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRR</Hsp_qseq>
+							<Hsp_hseq>ESPSVARCQAEVQWGDLGSLQPPPPGFKQFSCLSLLSSWDYRQ</Hsp_hseq>
+							<Hsp_midline>E+ S QA VQW DL SLQP PGFKQFSCLSLLSSWDYR+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>84</Hit_num>
+					<Hit_id>gb|EAW48919.1|</Hit_id>
+					<Hit_def>hCG2028158, partial [Homo sapiens]</Hit_def>
+					<Hit_accession>EAW48919</Hit_accession>
+					<Hit_len>136</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>75.485</Hsp_bit-score>
+							<Hsp_score>184</Hsp_score>
+							<Hsp_evalue>1.2167e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>2</Hsp_hit-from>
+							<Hsp_hit-to>48</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>KSCSVAQAGVQWCDLGSLQPPPPRFKQFSCLSLPSSWDYRHVPPCLA</Hsp_hseq>
+							<Hsp_midline>+SC V QAGVQWCDL SLQP P FKQFSCLSL SSWDYR VPPCL+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>85</Hit_num>
+					<Hit_id>gb|EHH18371.1|</Hit_id>
+					<Hit_def>hypothetical protein EGK_14950, partial [Macaca mulatta]</Hit_def>
+					<Hit_accession>EHH18371</Hit_accession>
+					<Hit_len>97</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>74.3294</Hsp_bit-score>
+							<Hsp_score>181</Hsp_score>
+							<Hsp_evalue>1.24937e-14</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>4</Hsp_hit-from>
+							<Hsp_hit-to>49</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>37</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>ETESRSVTQAGVQWYDLGSLQPPPPGFKRFSCLSLPSSWDYRHAPP</Hsp_hseq>
+							<Hsp_midline>ETES VTQAGVQW DL SLQP PGFK+FSCLSL SSWDYR PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>86</Hit_num>
+					<Hit_id>gb|KAL0625427.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_004480 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0625427</Hit_accession>
+					<Hit_len>1128</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>1.2969e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>833</Hsp_hit-from>
+							<Hsp_hit-to>880</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>VESCSVAQAGVQWCSLSSLQPLPPEFKQFSCLSLLSIWDYRRLSPCLA</Hsp_hseq>
+							<Hsp_midline> ESC V QAGVQWC LSSLQPL P FKQFSCLSLLS WDYRR+ PCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>67.0106</Hsp_bit-score>
+							<Hsp_score>162</Hsp_score>
+							<Hsp_evalue>3.32488e-10</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>606</Hsp_hit-from>
+							<Hsp_hit-to>648</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>33</Hsp_identity>
+							<Hsp_positive>34</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>43</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>VPQTGVQWRDLGSLQPPPPRFKQFSCLSLLSSWDYRHAPPCLA</Hsp_hseq>
+							<Hsp_midline>V Q GVQW DL SLQP P FKQFSCLSLLSSWDYR PPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>51.2174</Hsp_bit-score>
+							<Hsp_score>121</Hsp_score>
+							<Hsp_evalue>0.000109388</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>117</Hsp_query-to>
+							<Hsp_hit-from>684</Hsp_hit-from>
+							<Hsp_hit-to>722</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>24</Hsp_identity>
+							<Hsp_positive>28</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>39</Hsp_align-len>
+							<Hsp_qseq>GVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>GAQWCDLDSLKLMPPGLKQLSCLSLWSSWDDKHVSPHLA</Hsp_hseq>
+							<Hsp_midline>G QWCDL SL+ + PG KQ SCLSL SSWD + V P L+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>4</Hsp_num>
+							<Hsp_bit-score>43.8986</Hsp_bit-score>
+							<Hsp_score>102</Hsp_score>
+							<Hsp_evalue>0.0404253</Hsp_evalue>
+							<Hsp_query-from>59</Hsp_query-from>
+							<Hsp_query-to>145</Hsp_query-to>
+							<Hsp_hit-from>532</Hsp_hit-from>
+							<Hsp_hit-to>560</Hsp_hit-to>
+							<Hsp_query-frame>-2</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>23</Hsp_identity>
+							<Hsp_positive>23</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>29</Hsp_align-len>
+							<Hsp_qseq>DGVLLCHPGWSAVV*SQLTATSDSRVQAI</Hsp_qseq>
+							<Hsp_hseq>DSVLLCHPGWSAVVQSWLTATSTPWVQAI</Hsp_hseq>
+							<Hsp_midline>D VLLCHPGWSAVV S LTATS VQAI</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>87</Hit_num>
+					<Hit_id>gb|KAL0596792.1|</Hit_id>
+					<Hit_def>putative uncharacterized protein CCDC28A-AS1, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0596792</Hit_accession>
+					<Hit_len>121</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>74.7146</Hsp_bit-score>
+							<Hsp_score>182</Hsp_score>
+							<Hsp_evalue>1.31246e-14</Hsp_evalue>
+							<Hsp_query-from>4</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>47</Hsp_hit-from>
+							<Hsp_hit-to>94</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCL</Hsp_qseq>
+							<Hsp_hseq>QMESRSVTQAGVQWHDLGSLQPPPPWFKRFSCLSLLSSWDYRRAPPCL</Hsp_hseq>
+							<Hsp_midline>+ ES VTQAGVQW DL SLQP P FK+FSCLSLLSSWDYRR PPCL</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>88</Hit_num>
+					<Hit_id>gb|KAL0598430.1|</Hit_id>
+					<Hit_def>Protein GVQW1, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0598430</Hit_accession>
+					<Hit_len>201</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>76.6406</Hsp_bit-score>
+							<Hsp_score>187</Hsp_score>
+							<Hsp_evalue>1.32984e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>35</Hsp_hit-from>
+							<Hsp_hit-to>83</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>DMESHSVTQTGVQWCDLSSLQPQPPKFKQFSCLSPLSSWDYRHLPPCLA</Hsp_hseq>
+							<Hsp_midline>+ ES VTQ GVQWCDLSSLQP P FKQFSCLS LSSWDYR +PPCL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>46.595</Hsp_bit-score>
+							<Hsp_score>109</Hsp_score>
+							<Hsp_evalue>0.00303528</Hsp_evalue>
+							<Hsp_query-from>43</Hsp_query-from>
+							<Hsp_query-to>123</Hsp_query-to>
+							<Hsp_hit-from>117</Hsp_hit-from>
+							<Hsp_hit-to>143</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>22</Hsp_identity>
+							<Hsp_positive>22</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>27</Hsp_align-len>
+							<Hsp_qseq>QAGVQWCDLSSLQPLTPGFKQFSCLSL</Hsp_qseq>
+							<Hsp_hseq>QLGVQWCDLGSLQPLPPRFKQFPCLSL</Hsp_hseq>
+							<Hsp_midline>Q GVQWCDL SLQPL P FKQF CLSL</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>89</Hit_num>
+					<Hit_id>gb|KAL0614517.1|</Hit_id>
+					<Hit_def>Protein GVQW1, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0614517</Hit_accession>
+					<Hit_len>409</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>1.33378e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>41</Hsp_hit-from>
+							<Hsp_hit-to>88</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>TESRCVTQAGVQWCNLGSLQPPPPGFKQFSCLGLLSSWDYRQVQPRLG</Hsp_hseq>
+							<Hsp_midline>TES CVTQAGVQWC+L SLQP PGFKQFSCL LLSSWDYR+V P L </Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>52.373</Hsp_bit-score>
+							<Hsp_score>124</Hsp_score>
+							<Hsp_evalue>4.59816e-05</Hsp_evalue>
+							<Hsp_query-from>22</Hsp_query-from>
+							<Hsp_query-to>114</Hsp_query-to>
+							<Hsp_hit-from>176</Hsp_hit-from>
+							<Hsp_hit-to>206</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>24</Hsp_identity>
+							<Hsp_positive>26</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>31</Hsp_align-len>
+							<Hsp_qseq>VQWCDLSSLQPLTPGFKQFSCLSLLSSWDYR</Hsp_qseq>
+							<Hsp_hseq>MQWRDLGSLQPPPPGFKRFLCLSLLSSWDYR</Hsp_hseq>
+							<Hsp_midline>+QW DL SLQP PGFK+F CLSLLSSWDYR</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>90</Hit_num>
+					<Hit_id>gb|KAL0622108.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_010449 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0622108</Hit_accession>
+					<Hit_len>861</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.7221</Hsp_bit-score>
+							<Hsp_score>195</Hsp_score>
+							<Hsp_evalue>1.34157e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>70</Hsp_hit-from>
+							<Hsp_hit-to>118</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>42</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>QMESRSVTQAGVQWCDLGSVQPPPPGFKRFSCLSLLSSWDYRRLPLCLA</Hsp_hseq>
+							<Hsp_midline>+ ES VTQAGVQWCDL S+QP PGFK+FSCLSLLSSWDYRR+P CL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>61.2326</Hsp_bit-score>
+							<Hsp_score>147</Hsp_score>
+							<Hsp_evalue>3.32504e-08</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>763</Hsp_hit-from>
+							<Hsp_hit-to>807</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>30</Hsp_identity>
+							<Hsp_positive>33</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>TESHSVAQDGVQWHNLGSLQPLPPRFKHFSYLSLQSSWEYRHLPP</Hsp_hseq>
+							<Hsp_midline>TES V Q GVQW +L SLQPL P FK FS LSL SSW+YR +PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>91</Hit_num>
+					<Hit_id>gb|KAL0619519.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_012201 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0619519</Hit_accession>
+					<Hit_len>614</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>1.37232e-14</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>135</Hsp_query-to>
+							<Hsp_hit-from>531</Hsp_hit-from>
+							<Hsp_hit-to>573</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>37</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>43</Hsp_align-len>
+							<Hsp_qseq>CCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>ALVNQAGVQWRDLSSLQPLPPGFKQFSCLSLLSSWDYRRAPPC</Hsp_hseq>
+							<Hsp_midline> V QAGVQW DLSSLQPL PGFKQFSCLSLLSSWDYRR PPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>55.4546</Hsp_bit-score>
+							<Hsp_score>132</Hsp_score>
+							<Hsp_evalue>3.88182e-06</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>394</Hsp_hit-from>
+							<Hsp_hit-to>439</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>29</Hsp_identity>
+							<Hsp_positive>34</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>EATSPPLAKSGVQWHHLSSPQPLTLRFKRFSCLSLPSSWDYKYVPP</Hsp_hseq>
+							<Hsp_midline>E S + ++GVQW LSS QPLT FK+FSCLSL SSWDY+ VPP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>92</Hit_num>
+					<Hit_id>gb|KAL0593187.1|</Hit_id>
+					<Hit_def>putative uncharacterized protein CCDC28A-AS1, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0593187</Hit_accession>
+					<Hit_len>668</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>1.38281e-14</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>270</Hsp_hit-from>
+							<Hsp_hit-to>314</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>37</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>ESCFIIQEGVQWCHLSSLQPLLPGFKQFSCLSLLSRWDYRHQPPC</Hsp_hseq>
+							<Hsp_midline>ESC + Q GVQWC LSSLQPL PGFKQFSCLSLLS WDYR PPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>60.4622</Hsp_bit-score>
+							<Hsp_score>145</Hsp_score>
+							<Hsp_evalue>6.5111e-08</Hsp_evalue>
+							<Hsp_query-from>4</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>484</Hsp_hit-from>
+							<Hsp_hit-to>525</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>32</Hsp_identity>
+							<Hsp_positive>32</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>42</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCL</Hsp_qseq>
+							<Hsp_hseq>VAQAGVQWRDLSSPQPLPPGFKPFSCLSLPSSRDYRHAPPRL</Hsp_hseq>
+							<Hsp_midline>V QAGVQW DLSS QPL PGFK FSCLSL SS DYR PP L</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>51.6026</Hsp_bit-score>
+							<Hsp_score>122</Hsp_score>
+							<Hsp_evalue>9.14186e-05</Hsp_evalue>
+							<Hsp_query-from>9</Hsp_query-from>
+							<Hsp_query-to>146</Hsp_query-to>
+							<Hsp_hit-from>340</Hsp_hit-from>
+							<Hsp_hit-to>385</Hsp_hit-to>
+							<Hsp_query-frame>-1</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>39</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>RRSLAVSPRLECSGVISAHCXXXXXXXXXXXXXXX*VAGTTGVCHH</Hsp_qseq>
+							<Hsp_hseq>RRSLALSPRLECSGTISAHCNLCLLGSSNSSASASRVAGTTGACHH</Hsp_hseq>
+							<Hsp_midline>RRSLA+SPRLECSG ISAHCNL L GSSNS ASAS VAGTTG CHH</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>93</Hit_num>
+					<Hit_id>gb|KAL0589211.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0589211</Hit_accession>
+					<Hit_len>504</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>1.47251e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>74</Hsp_hit-from>
+							<Hsp_hit-to>121</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>48</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>TSSCSVAQAGVQWHDLGSLQPLSPGVKQFSCLSLLSSWDYRREPSCLA</Hsp_hseq>
+							<Hsp_midline>T SC V QAGVQW DL SLQPL+PG KQFSCLSLLSSWDYRR P CL+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>78.5666</Hsp_bit-score>
+							<Hsp_score>192</Hsp_score>
+							<Hsp_evalue>3.18241e-14</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>344</Hsp_hit-from>
+							<Hsp_hit-to>390</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>QTVSCSVTQAGVQWPNLGSPQPLLPGFKRFSCLSLLSSWDYRRMPPC</Hsp_hseq>
+							<Hsp_midline>+T SC VTQAGVQW +L S QPL PGFK+FSCLSLLSSWDYRR+PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>94</Hit_num>
+					<Hit_id>gb|KAL0588049.1|</Hit_id>
+					<Hit_def>UPF0764 protein C16orf89 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0588049</Hit_accession>
+					<Hit_len>480</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>1.49915e-14</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>129</Hsp_query-to>
+							<Hsp_hit-from>8</Hsp_hit-from>
+							<Hsp_hit-to>48</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>37</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>41</Hsp_align-len>
+							<Hsp_qseq>VTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>VTQAGVQWRDLGSLQPPTPGFKQFSCLSLLSSWDYRRTPPC</Hsp_hseq>
+							<Hsp_midline>VTQAGVQW DL SLQP TPGFKQFSCLSLLSSWDYRR PPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>95</Hit_num>
+					<Hit_id>gb|KAL0615672.1|</Hit_id>
+					<Hit_def>Histone demethylase UTY [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0615672</Hit_accession>
+					<Hit_len>375</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>78.9518</Hsp_bit-score>
+							<Hsp_score>193</Hsp_score>
+							<Hsp_evalue>1.52951e-14</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>126</Hsp_hit-from>
+							<Hsp_hit-to>171</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>39</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>TESHSVAQAGVQWCNLSSLQPLTHGFKQFSCFSLPSSWDYRHVPPC</Hsp_hseq>
+							<Hsp_midline>TES V QAGVQWC+LSSLQPLT GFKQFSC SL SSWDYR VPPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>96</Hit_num>
+					<Hit_id>gb|KAL0588374.1|</Hit_id>
+					<Hit_def>LOW QUALITY PROTEIN: hypothetical protein AAY473_039385 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0588374</Hit_accession>
+					<Hit_len>805</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>1.56051e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>437</Hsp_hit-from>
+							<Hsp_hit-to>485</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>43</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>KTESFSVTQAGVQWCDLSSLQPLPPGFKKFSCLSLQNNWDYRHMPPHLA</Hsp_hseq>
+							<Hsp_midline>+TES VTQAGVQWCDLSSLQPL PGFK+FSCLSL ++WDYR +PP L+</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>72.4034</Hsp_bit-score>
+							<Hsp_score>176</Hsp_score>
+							<Hsp_evalue>4.88429e-12</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>141</Hsp_query-to>
+							<Hsp_hit-from>224</Hsp_hit-from>
+							<Hsp_hit-to>268</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>35</Hsp_identity>
+							<Hsp_positive>37</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>45</Hsp_align-len>
+							<Hsp_qseq>ESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>KSCCITQTGVQRHDLSSLQPLPPRFKQFSCLSLPSSWDYRHAPPC</Hsp_hseq>
+							<Hsp_midline>+SCC+TQ GVQ DLSSLQPL P FKQFSCLSL SSWDYR PPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>3</Hsp_num>
+							<Hsp_bit-score>46.9802</Hsp_bit-score>
+							<Hsp_score>110</Hsp_score>
+							<Hsp_evalue>0.00359221</Hsp_evalue>
+							<Hsp_query-from>6</Hsp_query-from>
+							<Hsp_query-to>161</Hsp_query-to>
+							<Hsp_hit-from>116</Hsp_hit-from>
+							<Hsp_hit-to>167</Hsp_hit-to>
+							<Hsp_query-frame>-1</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>38</Hsp_identity>
+							<Hsp_positive>41</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>52</Hsp_align-len>
+							<Hsp_qseq>FFFFLRRSLAVSPRLECSGVISAHCXXXXXXXXXXXXXXX*VAGTTGVCHHA</Hsp_qseq>
+							<Hsp_hseq>FTSRIDQGLALSPRLECSGAISAHCNLRLPGSSNSRASASGVAGITGRCHHA</Hsp_hseq>
+							<Hsp_midline>F + + LA+SPRLECSG ISAHCNL LPGSSNS ASAS VAG TG CHHA</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>97</Hit_num>
+					<Hit_id>gb|KAL0620736.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_009061 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0620736</Hit_accession>
+					<Hit_len>434</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>1.56434e-14</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>144</Hsp_query-to>
+							<Hsp_hit-from>207</Hsp_hit-from>
+							<Hsp_hit-to>252</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>TESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>SRTCSVTQAGVQWHDLSSLQPLPPGFKRFSCLSLLSTWDYRHAPPC</Hsp_hseq>
+							<Hsp_midline>+ +C VTQAGVQW DLSSLQPL PGFK+FSCLSLLS+WDYR PPC</Hsp_midline>
+						</Hsp>
+
+
+-
+						<Hsp>
+							<Hsp_num>2</Hsp_num>
+							<Hsp_bit-score>63.5438</Hsp_bit-score>
+							<Hsp_score>153</Hsp_score>
+							<Hsp_evalue>4.88099e-09</Hsp_evalue>
+							<Hsp_query-from>10</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>16</Hsp_hit-from>
+							<Hsp_hit-to>61</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>32</Hsp_identity>
+							<Hsp_positive>34</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>46</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPP</Hsp_qseq>
+							<Hsp_hseq>RTKSPSVMQAGMQWCSLGSLQPPPPGFKQFSCLSFLSSQDYCRAPP</Hsp_hseq>
+							<Hsp_midline> T+S V QAG+QWC L SLQP PGFKQFSCLS LSS DY R PP</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>98</Hit_num>
+					<Hit_id>gb|KAL0585303.1|</Hit_id>
+					<Hit_def>Sodium/hydrogen exchanger 2 [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0585303</Hit_accession>
+					<Hit_len>534</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>79.337</Hsp_bit-score>
+							<Hsp_score>194</Hsp_score>
+							<Hsp_evalue>1.61809e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>436</Hsp_hit-from>
+							<Hsp_hit-to>484</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>36</Hsp_identity>
+							<Hsp_positive>40</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>49</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>ETNSCSVTQAGVRWHNLGSLQPLPPGFKQFSCLSLTSSWGYRHAPPCMA</Hsp_hseq>
+							<Hsp_midline>ET SC VTQAGV+W +L SLQPL PGFKQFSCLSL SSW YR PPC++</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>99</Hit_num>
+					<Hit_id>gb|KAL0625869.1|</Hit_id>
+					<Hit_def>Histone demethylase UTY, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0625869</Hit_accession>
+					<Hit_len>303</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>78.1814</Hsp_bit-score>
+							<Hsp_score>191</Hsp_score>
+							<Hsp_evalue>1.63088e-14</Hsp_evalue>
+							<Hsp_query-from>7</Hsp_query-from>
+							<Hsp_query-to>147</Hsp_query-to>
+							<Hsp_hit-from>188</Hsp_hit-from>
+							<Hsp_hit-to>234</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>37</Hsp_identity>
+							<Hsp_positive>38</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>47</Hsp_align-len>
+							<Hsp_qseq>ETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPC</Hsp_qseq>
+							<Hsp_hseq>EMESCSVAQGGVQWCDLVSLQPPPPEFKQFSCLSLQSSWDYRQVPPC</Hsp_hseq>
+							<Hsp_midline>E ESC V Q GVQWCDL SLQP P FKQFSCLSL SSWDYR+VPPC</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+
+
+-
+				<Hit>
+					<Hit_num>100</Hit_num>
+					<Hit_id>gb|KAL0621272.1|</Hit_id>
+					<Hit_def>hypothetical protein AAY473_009601, partial [Plecturocebus cupreus]</Hit_def>
+					<Hit_accession>KAL0621272</Hit_accession>
+					<Hit_len>417</Hit_len>
+
+
+-
+					<Hit_hsps>
+
+
+-
+						<Hsp>
+							<Hsp_num>1</Hsp_num>
+							<Hsp_bit-score>78.9518</Hsp_bit-score>
+							<Hsp_score>193</Hsp_score>
+							<Hsp_evalue>1.65141e-14</Hsp_evalue>
+							<Hsp_query-from>1</Hsp_query-from>
+							<Hsp_query-to>225</Hsp_query-to>
+							<Hsp_hit-from>306</Hsp_hit-from>
+							<Hsp_hit-to>380</Hsp_hit-to>
+							<Hsp_query-frame>-3</Hsp_query-frame>
+							<Hsp_hit-frame>0</Hsp_hit-frame>
+							<Hsp_identity>41</Hsp_identity>
+							<Hsp_positive>52</Hsp_positive>
+							<Hsp_gaps>0</Hsp_gaps>
+							<Hsp_align-len>75</Hsp_align-len>
+							<Hsp_qseq>PPLCSTRPSLPCPLTPHNHXXXXXXFETESCCVTQAGVQWCDLSSLQPLTPGFKQFSCLSLLSSWDYRRVPPCLS</Hsp_qseq>
+							<Hsp_hseq>PPTSASQSSRITGMSHHALPPSLFLTQQESCSVTQAGVQWHNLHSLQPSSPGFQQFSCLSLLSSWDYRHMPPHLA</Hsp_hseq>
+							<Hsp_midline>PP +++ S ++ H F + ESC VTQAGVQW +L SLQP +PGF+QFSCLSLLSSWDYR +PP L+</Hsp_midline>
+						</Hsp>
+					</Hit_hsps>
+				</Hit>
+			</Iteration_hits>
+
+
+-
+			<Iteration_stat>
+
+
+-
+				<Statistics>
+					<Statistics_db-num>465517121</Statistics_db-num>
+					<Statistics_db-len>148632845539</Statistics_db-len>
+					<Statistics_hsp-len>0</Statistics_hsp-len>
+					<Statistics_eff-space>0</Statistics_eff-space>
+					<Statistics_kappa>0.041</Statistics_kappa>
+					<Statistics_lambda>0.267</Statistics_lambda>
+					<Statistics_entropy>0.14</Statistics_entropy>
+				</Statistics>
+			</Iteration_stat>
+		</Iteration>
+	</BlastOutput_iterations>
+</BlastOutput>

@@ -17,7 +17,7 @@ function(sequence) {
   
     cmd <- c(
         "-query", tmpfile, 
-        "-db /opt/blast/blastdb/pdbaa", 
+        "-db /opt/blast/swissprot/swissprot", #nucleotidos 
         "-outfmt", "15"
     )
 
@@ -50,7 +50,7 @@ function(sequence) {
         cat("OUT IS: ", paste(out, collapse = "\n"), "\n")
 #SOLUCION
         out_text <- paste(out, collapse = "\n")
-        out_text <- iconv(out_text, from = "", to = "UTF-8", sub = "byte")  # limpia cualquier carácter problemático
+        out_text <- iconv(out_text, from = "", to = "UTF-8", sub = "byte")  # limpiar
 # Parsear JSON con tryCatch
         result <- tryCatch({
             jsonlite::fromJSON(out_text, simplifyVector = FALSE)

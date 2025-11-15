@@ -1,4 +1,4 @@
-FROM veroyols/blast-r:latest
+FROM veroyols/blast-r:swissprot
 
 WORKDIR /bservice
 COPY . .
