@@ -7,57 +7,32 @@ library(jsonlite)
 #* @serializer unboxedJSON 
 
 function(sequence) {
-
-    cat("SEQUENCE: ", sequence, "\n")
-    
     tmpfile <- tempfile(fileext = ".fna")
-    cat("TEMP: ", tmpfile, "\n")
-
     writeLines(sequence, tmpfile)
-  
     cmd <- c(
         "-query", tmpfile, 
-        "-db /opt/blast/swissprot/swissprot", #nucleotidos 
+        "-db /opt/blast/swissprot/swissprot", 
         "-outfmt", "15"
     )
-
-    cat("CMD: ", cmd, "\n")
-
     out <- tryCatch({
-        cat("-----------START tryCatch", "\n")
         res <- system2("blastx", args = cmd, stdout = TRUE, stderr = TRUE)
-        cat("-----------END tryCatch", "\n")
         res
     }, error = function(e) {
-        cat("ERROR en tryCatch:", conditionMessage(e), "\n")
         NULL
     })
-    
     unlink(tmpfile) 
-
     if (is.null(out)) {
-        cat("OUT IS NULL", "\n")
-
         response <- list(
             code = 500,
             message = "try catch",
             data = NULL
         )
-
     } else {
-        cat("OUT IS NOT NULL", "\n")
-
-        cat("OUT IS: ", paste(out, collapse = "\n"), "\n")
-#SOLUCION
         out_text <- paste(out, collapse = "\n")
-        out_text <- iconv(out_text, from = "", to = "UTF-8", sub = "byte")  # limpiar
-# Parsear JSON con tryCatch
+        out_text <- iconv(out_text, from = "", to = "UTF-8", sub = "byte")  
         result <- tryCatch({
             jsonlite::fromJSON(out_text, simplifyVector = FALSE)
-        }, error = function(e) {
-            cat("ERROR jsonlite::fromJSON------------- ", "\n")
-        })
-        
+        }, error = function(e) {})
         response <- list(
             code = 200,
             message = "Ok",
@@ -66,4 +41,3 @@ function(sequence) {
     }
     return(response)
 }
-# → qseq = la región traducida de la secuencia.
